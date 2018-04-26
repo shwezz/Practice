@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Legislative Compass Frontend Test Suite]" parallel="tests">
+  <test name="Federal_Bill_Detail_Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.politico.LegCompass.tests.StateBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.StateBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest">
+        <methods>
+          <include name="Test024_Verify_CBO_Cost_Estimate_Document"/>
+          <include name="stop_test_session"/>
+          <include name="Test007_Verify_Track_Functionality_For_Federal_Bill"/>
+          <include name="Test019_Verify_Ammendments_Tab"/>
+          <include name="Test022_Verify_Pro_Document"/>
+          <include name="Test028_Verify_News_Count"/>
+          <include name="handleTestMethodName"/>
+          <include name="Test003_Verify_Buttons_On_Bill_Detail_Page"/>
+          <include name="Test010_Stop_Tracking_Amendment"/>
+          <include name="Test017_Verify_Bill_Titles_On_related_Bill_Tab"/>
+          <include name="takeScreenshotonFailure"/>
+          <include name="Test009_Verify_Track_Functionality_For_Amendment_Bill"/>
+          <include name="Test005_Verify_Bill_Text_Tab_For_Federal_Bill"/>
+          <include name="Test006_Verify_Compare_Bill_Version_For_Federal_Bill"/>
+          <include name="Test018_Verify_Bill_Titles_For_Similar_Bill"/>
+          <include name="Test002_Launch_LegislativeCompass"/>
+          <include name="Test027_Verify_Published_Note_For_Amendment_Bill"/>
+          <include name="Test015_Verify_Roll_Call_Votes_Tab_Modules_For_Federal_Bill"/>
+          <include name="Test008_Stop_Tracking"/>
+          <include name="Test021_Verify_Document_Tab"/>
+          <include name="Test023_Verify_Bill_Text_Document"/>
+          <include name="Test012_Verify_News_Tab_For_Federal_Bill"/>
+          <include name="Test011_Verify_Actions_Tab_For_Federal_Bill"/>
+          <include name="Start_Test_Session"/>
+          <include name="Test026_Verify_Create_A_Note_Functionality_For_Amendment_Bill"/>
+          <include name="Test016_Verify_Vote_Count_By_Member_Module_For_Federal_Bill"/>
+          <include name="Test020_Verify_Cosponsors_Tab"/>
+          <include name="Test025_Verify_Committee_Reports_Document"/>
+          <include name="Test004_Verify_Overview_Tab_For_Federal_Bill"/>
+          <include name="Test013_Verify_CRS_Summary_Tab"/>
+          <include name="Test014_Verify_News_Count"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.FederalBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.LegislationSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.LegislationSearchTest -->
+      <class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.Legislative_Outcome_Test -->
+      <class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.YourPreferencePageTest -->
+      <class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest -->
+    </classes>
+  </test> <!-- Federal_Bill_Detail_Test(failed) -->
+  <test name="Legislation_Search_Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.politico.LegCompass.tests.StateBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.StateBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.FederalBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.LegislationSearchTest">
+        <methods>
+          <include name="Test025_Search_By_Chamber_For_State"/>
+          <include name="Test009_Search_By_Cosponsors"/>
+          <include name="stop_test_session"/>
+          <include name="handleTestMethodName"/>
+          <include name="Test033_Search_By_Keyword_LC2521"/>
+          <include name="Test032_Verify_Legislation_Type_For_States"/>
+          <include name="takeScreenshotonFailure"/>
+          <include name="Test018_Add_Folder_From_Legislation_Page"/>
+          <include name="Test034_Search_By_Keyword_LC_2524"/>
+          <include name="Test006_Search_By_Legislation_Type"/>
+          <include name="Test027_Search_By_Sponsors_For_State"/>
+          <include name="Test021_Verify_Opening_Of_A_Bill"/>
+          <include name="Test019_Download_Excel_From_Legislation_Page"/>
+          <include name="Test028_Search_By_Cosponsors_For_State"/>
+          <include name="Test026_Search_By_Legislation_Type_For_State"/>
+          <include name="Test030_Search_For_Multiple_Fields"/>
+          <include name="Test011_Search_By_Current_Status"/>
+          <include name="Test024_Switch_From_Federal_To_State"/>
+          <include name="Test035_CRS_Isuue_Area_For_Apostrophe_LC_2514"/>
+          <include name="Test005_Search_By_Chamber"/>
+          <include name="Test013_Search_By_Date_Range"/>
+          <include name="Test010_Search_By_Committees"/>
+          <include name="Test029_Search_By_Committees_For_State"/>
+          <include name="Test031_Search_By_Date_Range_For_State"/>
+          <include name="Test014_Save_Search_Modal"/>
+          <include name="Test015_Select_All_Box"/>
+          <include name="Test008_Search_By_Sponsors"/>
+          <include name="Test017_Track_Bill_From_Legislation_Page_Without_Alerts"/>
+          <include name="Test012_Search_By_Actions"/>
+          <include name="Test003_Search_By_Keyword_Or_Bill"/>
+          <include name="Test007_Search_By_CRS_Isuue_Area"/>
+          <include name="Start_Test_Session"/>
+          <include name="Test020_Verify_Pagination"/>
+          <include name="Test016_Track_Bill_From_Legislation_Page_With_Alerts"/>
+          <include name="Test023_Save_Search_State"/>
+          <include name="Test036_LC_2549"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.LegislationSearchTest -->
+      <class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.Legislative_Outcome_Test -->
+      <class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.YourPreferencePageTest -->
+      <class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest -->
+    </classes>
+  </test> <!-- Legislation_Search_Test(failed) -->
+  <test name="State_Bill_Detail_Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.politico.LegCompass.tests.StateBillDetailTest">
+        <methods>
+          <include name="Test012_Verify_Published_Note"/>
+          <include name="Test014_Verify_Roll_Call_Votes_Tab_For_State_Bill"/>
+          <include name="stop_test_session"/>
+          <include name="Test008_Verify_Compare_Bill_Version_For_State_Bill"/>
+          <include name="Test015_Verify_Bill_Titles_On_related_Bill_Tab_State"/>
+          <include name="Test021_Verify_Bill_Text_Document"/>
+          <include name="Test009_Verify_Track_Functionality_For_State_Bill"/>
+          <include name="handleTestMethodName"/>
+          <include name="Test005_Verify_Bill_Text_Tab_For_State_Bill"/>
+          <include name="Test020_Verify_Pro_Document"/>
+          <include name="Test024_VerifyLegisslativeOutcomeNotPresentForStateBills"/>
+          <include name="Test013_Verify_Compare_Bill_Version_For_States"/>
+          <include name="Test010_Verify_Add_To_Folder_Functionality_For_State_Bill"/>
+          <include name="Test019_Verify_Document_Tab"/>
+          <include name="Test023_Verify_Committee_Reports_Document"/>
+          <include name="takeScreenshotonFailure"/>
+          <include name="Test018_Verify_Cosponsors_Tab_State"/>
+          <include name="Start_Test_Session"/>
+          <include name="Test003_Verify_Overview_Tab_For_State_Bill"/>
+          <include name="Test017_Verify_Ammendments_Tab_State"/>
+          <include name="Test022_Verify_CBO_Cost_Estimate_Document"/>
+          <include name="Test006_Verify_Actions_Tab_For_State_Bill"/>
+          <include name="Test016_Verify_Bill_Titles_For_Similar_Bill_State"/>
+          <include name="Test011_Verify_Create_A_Note_Functionality"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.StateBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.FederalBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.LegislationSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.LegislationSearchTest -->
+      <class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.Legislative_Outcome_Test -->
+      <class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.YourPreferencePageTest -->
+      <class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest -->
+    </classes>
+  </test> <!-- State_Bill_Detail_Test(failed) -->
+  <test name="Your_Preference_Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.politico.LegCompass.tests.StateBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.StateBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.FederalBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.LegislationSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.LegislationSearchTest -->
+      <class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.Legislative_Outcome_Test -->
+      <class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+          <include name="Test003_Track_Functionality_For_Federal_Bill"/>
+          <include name="Test008_See_Bills"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.YourPreferencePageTest -->
+      <class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest -->
+    </classes>
+  </test> <!-- Your_Preference_Test(failed) -->
+  <test name="Legislative_Outcome_Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.politico.LegCompass.tests.StateBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.StateBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.FederalBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.LegislationSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.LegislationSearchTest -->
+      <class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="Test010_VerifyLegislative_Outcome_Is_Not_Present_For_States_Bills"/>
+          <include name="Test007_Verify_Leg_Outcome_Details_For_Changes_Made_To_Existing_Laws_LC_2373"/>
+          <include name="Test004_Verify_Legislative_Outcome_Details_LC_2371"/>
+          <include name="Test009_Verify_Leg_Outcome_Details_For_Work_In_Progress_Bills_LC_2481"/>
+          <include name="Test008_Verify_Leg_Outcome_Details_For_Changes_Since_Its_Enactment_LC_2374"/>
+          <include name="takeScreenshotonFailure"/>
+          <include name="Test006_LC_2370_Verify_LegislativeOutcome_For_Bills_That_Have_Become_Public_Laws"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.Legislative_Outcome_Test -->
+      <class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.YourPreferencePageTest -->
+      <class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest -->
+    </classes>
+  </test> <!-- Legislative_Outcome_Test(failed) -->
+  <test name="Roll_Call_Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.politico.LegCompass.tests.StateBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.StateBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.FederalBillDetailTest -->
+      <class name="com.qait.politico.LegCompass.tests.LegislationSearchTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.LegislationSearchTest -->
+      <class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.Legislative_Outcome_Test -->
+      <class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="Start_Test_Session"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.YourPreferencePageTest -->
+      <class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest">
+        <methods>
+          <include name="Test013_Verify_Pagination"/>
+          <include name="stop_test_session"/>
+          <include name="Test015_Verify_Navigation_To_Roll_Call"/>
+          <include name="Test006_Search_By_Chamber"/>
+          <include name="handleTestMethodName"/>
+          <include name="Test011_Search_By_Date_Range"/>
+          <include name="takeScreenshotonFailure"/>
+          <include name="Test007_Search_By_CRS_Issue_Area"/>
+          <include name="Test009_Search_By_Legislators"/>
+          <include name="Test012_Sort_Bills"/>
+          <include name="Start_Test_Session"/>
+          <include name="Test010_Search_For_Multiple_Fields"/>
+          <include name="Test014_Clear_Filters"/>
+          <include name="Test008_Search_By_Vote_On"/>
+          <include name="Test004_Search_By_Keyword_Or_Bill"/>
+          <include name="Test016_Verify_Rejected_Amendments_Appears_In_Red"/>
+          <include name="Test005_Search_By_Congress"/>
+        </methods>
+      </class> <!-- com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest -->
+    </classes>
+  </test> <!-- Roll_Call_Test(failed) -->
+</suite> <!-- Failed suite [Legislative Compass Frontend Test Suite] -->

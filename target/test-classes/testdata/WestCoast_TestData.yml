@@ -1,0 +1,2493 @@
+base_url: https://west.ops.politico.com/
+CMS_Url: https://cms-west.ops.politico.com/cms
+FrontEnd_Url: https://west.ops.politico.com/
+Magazine_FrontEnd_URL: https://west.ops.politico.com/magazine/
+Pro_Marketing_url: https://west.ops.politico.com/pro-marketing.html
+Pro_frontend_URL: https://subscriber-stage.politicopro.com/_pro-login
+Pro_frontend_URL_Permalink: https://subscriber-stage.politicopro.com/
+DataPoint_URL: https://subscriber-stage.politicopro.com/datapoint
+Tipsheets_FrontEnd_URL: https://subscriber-stage.politicopro.com/newsletters
+TrendingNowURL: https://subscriber-stage.politicopro.com/trending-now
+Agenda_FrontEnd_URL: https://west.ops.politico.com/agenda/
+base_Pro_frontend_URL: https://subscriber-stage.politicopro.com/_pro-login
+naytev_url:  www.naytev.com
+yopmail_url: http://www.yopmail.com/en/
+google_doc_text_URL: https://docs.google.com/document/d/1ayuJsTSmzHh0tRHM94DYUYopCbdC8DKL5qPJix6C-eU/edit
+google_doc_body_field_text: https://docs.google.com/document/d/1S0NKifFGhgyrV0rd9PsdbFj3Cnz1t_sEnOdA5ptXd3s/edit
+event_url: https://west.ops.politico.com/live-events/2017/03/final-test-event-234758
+event_frontend_URL: https://west.ops.politico.com/live-events/2017/05/17/event-test-18may17-02-235785
+EventUpcomingURL: https://west.ops.politico.com/live-events/event-upcoming
+LiveEventsURL: https://west.ops.politico.com/live-events
+EventsAboutPageURL: https://west.ops.politico.com/live-events/about
+EventsArchiveURL: https://west.ops.politico.com/live-events/previous-event
+LC_billURL: https://subscriber-stage.politicopro.com/legislative-compass/bill/
+LC_Frontend: https://subscriber-stage.politicopro.com/legislative-compass/legislation-search
+StatesTipsheets: https://west.ops.politico.com/states/newsletters
+videoLandingPage: https://west.ops.politico.com/agenda/video
+ArticleLandingPage: https://west.ops.politico.com/agenda/story
+CDlandingPage: https://cd.subscriber-stage.politicopro.com
+WhatWork: https://west.ops.politico.com/magazine/what-works1
+AgricultureProStory: https://subscriber-stage.politicopro.com/agriculture/article/2017/11/while-early-revelations-about-the-trump-campaign-and-russia-focused-on-the-role-of-kremlin-officials-157013
+AgricultureWhiteboard:  https://subscriber-stage.politicopro.com/agriculture/whiteboard/2016/10/ag-industry-group-takes-aim-at-heritage-foundations-alternative-farm-bill-077997
+NewsletterDirectLink: https://subscriber-stage.politicopro.com/newsletters/morning-defense
+event_topic_link: https://west.ops.politico.com/live-events/final-test-event-topic
+google_doc_large_body_text: https://docs.google.com/document/d/1vS2MiXgeNHqn45O8R12RKSgtgWn52FF9mZbo8Jbwrec/edit
+CampaignRaceSearchDashboard: "https://subscriber-stage.politicopro.com/campaigns/dashboard"
+MediaFrontEndURL: https://west.ops.politico.com/media/
+PoliticLiveURL: "https://west.ops.politico.com/live-events"   
+AutomationHomePageURL: "https://west.ops.politico.com/homepage18-automation"
+StateHomePageURL: "https://west.ops.politico.com/states/new-york"
+
+GoogleHTMLDoc: https://docs.google.com/document/d/1PA7GbPBCwrqWIPkTDGh5TECvtVOxQo-CVbzoSTeNnQg/edit?usp=sharing
+ComeWorkWithUs: "https://recruiting.ultipro.com/PER1013PCLL/JobBoard/b972ff6a-41b7-4e97-9c71-273c2595c77d/?q=&o=postedDateDesc"
+CheckOutOpportunities: "https://recruiting.ultipro.com/PER1013PCLL/JobBoard/b972ff6a-41b7-4e97-9c71-273c2595c77d/?t=department&v=d175ee92-d720-4013-ba6b-327cff997504&q=&o=postedDateDesc"
+SeeCurrentOpenings: "https://recruiting.ultipro.com/PER1013PCLL/JobBoard/b972ff6a-41b7-4e97-9c71-273c2595c77d/?q=&o=postedDateDesc" 
+IPExtension_URL: chrome-extension://idgpnmonknjnojddfkpgkljpfnnfcklj/popup.html
+UserSettingsURL: "https://west.ops.politico.com/settings"
+PoliticoRegistrationPageURL: "https://west.ops.politico.com/registration"
+ArticlLink: https://west.ops.politico.com/story/2017/10/20/russia-probes-pose-loyalty-test-for-team-trump-automation-fri-oct-20-16-05-30-ist-2017-237182
+
+admin1_username: WestCoastLoad1192@yopmail.com
+admin1_password: Welcome1!
+
+admin2_username: WestCoastLoad176@yopmail.com
+admin2_password: Welcome1!
+
+CMS_User1:
+  username: WestCoastLoad1171@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User2:
+  username: WestCoastLoad1172@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User3:
+  username: WestCoastLoad1173@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User4:
+  username: WestCoastLoad1174@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User5:
+  username: WestCoastLoad1175@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User6:
+  username: WestCoastLoad1176@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User7:
+  username: WestCoastLoad1177@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User8:
+  username: WestCoastLoad1178@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User9:
+  username: WestCoastLoad1179@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User10:
+  username: WestCoastLoad1180@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User11:
+  username: WestCoastLoad1181@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User12:
+  username: WestCoastLoad1182@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User13:
+  username: WestCoastLoad1183@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User14:
+  username: WestCoastLoad1184@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User15:
+  username: WestCoastLoad1185@yopmail.com
+  password: 'Welcome1!'
+
+CMS_User16:
+  username: WestCoastLoad1186@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User17:
+  username: WestCoastLoad1187@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User18:
+  username: WestCoastLoad1188@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User19:
+  username: WestCoastLoad1189@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User20:
+  username: WestCoastLoad1190@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User21:
+  username: WestCoastLoad1191@yopmail.com
+  password: 'Welcome1!'
+CMS_User22:
+  username: WestCoastLoad1192@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User22:
+  username: WestCoastLoad1192@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User23:
+  username: WestCoastLoad1193@yopmail.com
+  password: 'Welcome1!'
+  
+CMS_User24:
+  username: WestCoastLoad1194@yopmail.com
+  password: 'Welcome1!'  
+  
+CMS_User25:
+  username: WestCoastLoad1195@yopmail.com
+  password: 'Welcome1!' 
+
+#Unused  
+  
+CMS_User26:
+  username: WestCoastLoad1196@yopmail.com
+  password: 'Welcome1!' 
+  
+CMS_User27:
+  username: WestCoastLoad1197@yopmail.com
+  password: 'Welcome1!' 
+  
+CMS_User28:
+  username: WestCoastLoad1198@yopmail.com
+  password: 'Welcome1!' 
+  
+CMS_User29:
+  username: WestCoastLoad1199@yopmail.com
+  password: 'Welcome1!' 
+  
+CMS_User30:
+  username: WestCoastLoad1200@yopmail.com
+  password: 'Welcome1!'              
+  
+#Newsletters
+Newsletters:
+  CEO_Report
+  POLITICO_Influence
+  Pro_Report
+ 
+# EVENT REDESIGN ---------------------------------------------------- 
+  
+EventUpdateDesign:
+  EventName: 'The Defense Strategies Institute'
+  EventDetails: 'The Defense Strategies Institute'
+  FeaturedEventModule_Title: Featured Events  
+  TitleBar_Title: 'Title Bar'
+  EventParticipant_Title: Defense 
+  EventParticipant_Name: Defense Event Participant
+  EventDescription_Title: 'Description'
+  EventDescription_HashTag: '#EventDescription'
+  GenericEmbed_Headline: Generic Embed Headline
+  EventGallery_Title: 'The Defense Strategies Institute'
+  EventGallery_Video: 'Martha Raddatz using exact quotes of Mike Pence'
+  LargeSinglePromo_Asset: 'Meet the new Democrats'
+  EventSponsoredContent_Label: Event Sponsored Content Label
+  
+UpcomingEvents:
+  FeaturedEvent_Title: Featured Module for Upcoming Events
+  FeaturedEventModule_Event:  'Final Test  Event'
+  TitleBar_Title: Upcoming Events Automation Title 
+  
+EventNavigationBarTabs:
+  Event_About_Page
+  Previous_Event
+  Events_landing_Page
+  Final_Event_Topic
+  Upcoming_Event
+  Final_Test_Series
+  Final_Test_Event
+  Event_Pages
+  
+  
+EventContentTypes:
+  Event_Upcoming
+  Event_About_Page
+  Event_Series
+  Event_Topic
+  Event_Landing_Page
+  Event_Archive
+  
+ContentTypesForEventFooter:
+  Event
+  Event_About_Page
+  Event_Archive
+  Event_Landing_Page
+  Event_Series
+  Event_Topic
+  Event_Upcoming
+
+# WHATWORKS -----------------------------------------------
+
+WhatWorksPackages:
+  Manchester1
+  Portland1
+  Des_Moines12  
+  
+WhatWorksHomePagePackages:
+  Cleveland
+  Houston  
+  
+WhatWorksPackage_1: Manchester1
+WhatWorksPackage_2: Portland1  
+  
+WhatWorks_WideLeft_Asset: 'Large Promo Module What Works' 
+WhatWorks_WideLeft_StoryName: "Melania Trump goes on the attack" 
+WhatWorks_NarrowRightUp_Asset: "Michelle Obama talks healthy living"
+WhatWorks_NarrowRightDown_Asset: "Trump sequestration"
+ 
+WhatWorks_NarrowLeftUp:
+  Label: "3PackB Module - Narrow Left Up"
+  Content: "Donald Trump's Wild Night"
+  Number: 150
+  NumberSuperscript: 10
+  Description: "Module Story Number - Number"
+  URL: https://www.google.co.in/
+  
+WhatWorks_NarrowLeftDown:
+  Quote: "Narrow Left Down - Story Quote"
+  Label: "WhatWorks - Test Story Quote"
+  URL: http://west.ops.politico.com/magazine/
+  Content: "It's Time to Discuss Trump's Running Mate"  
+  
+WhatWorks_WideRight: 
+  Asset: "Large Promo Module What Works"
+  StoryName: "Trump's Exceptionalism Explained"
+  
+WhatWorks_3PackB_LeftUp_StoryNumber: 'Test_3PackB_Module_LeftUp_StoryNumber'  
+WhatWorks_3PackB_LeftDown_StoryNumber: 'Test_3PackB_Module_LeftDown_StoryNumber' 
+
+WhatWorks_NarrowLeftUp_2: 
+  Quote: "Narrow Left Down - Story Quote"
+  Label: "WhatWorks - Test Story Quote"
+  URL: http://west.ops.politico.com/magazine/
+  
+WhatWorks_TabTitle_MoreThan20: "TabTitleMoreThan20Chars"
+
+WhatWorks_AddedSeriesTab: PortlandSeriesAutomation
+WhatWorks_AddedQLTab: PortlandAutomationTag
+
+# 3 Pack B Module  
+WhatWorks_NarrowLeftDown_2:
+  Label: "3PackB Module - Narrow Left Up 200620170623"
+  Content: "How Obama Will Redefine Hiroshima"
+  Number: 160
+  NumberSuperscript: 15
+  Description: "Module Story Number - Number"
+  URL: https://www.google.co.in/  
+
+# 4 Pack Module  
+WhatWorks_4Pack_Label: "Test4PackModuleLabel"
+WhatWorks_4Pack_WideLeft_Asset: 'Large Promo Module What Works' 
+WhatWorks_4Pack_WideLeft_StoryName: "How Obama Will Redefine Hiroshima" 
+
+WhatWorks_4Pack_NarrowRightUp_Asset: "How Hillary can keep Biden out" 
+ 
+WhatWorks_4Pack_NarrowRightDownLeft: 
+  Asset: "TestRightDownLeftStoryNumber"
+  Desc: "Test Story Number"
+  URL:  "https://www.google.com/"
+
+WhatWorks_4Pack_NarrowRightDownRight:
+  Asset: "TestRightDownRightStoryQuote"
+  Desc: "Test Story Quote" 
+  URL: "http://west.ops.politico.com/" 
+  
+WhatWorks_Tag:
+  Name: "WhatWorks Test Tag"  
+  
+WhatWorksResizePackages: 
+  Cleveland
+  Orlando
+  
+WhatWorksResizeTag: Antibiotics    
+ 
+#BRANDSCAPE ---------------------------------------------
+BrandscapePro:
+  Name: BrandscapeProAutomation
+  ColorCode1: 
+    Hex: 410f0f
+    RGB: rgba(65, 15, 15, 1)
+  StartYear1: 2018
+  EndYear1: 2019
+  CheckDateURL1: "home?date=2018-12-10%2011:11:15"
+  ColorCode2: 
+    Hex: e80909
+    RGB: rgba(232, 9, 9, 1)
+  
+  StartYear2: 2019
+  EndYear2: 2020
+  CheckDateURL2: "home?date=2019-12-01%2011:11:15"
+  
+BrandscapeStates:
+  Name: BrandscapeStatesAutomation
+  ColorCode1:
+    Hex: 23449e
+    RGB: rgba(35, 68, 158, 1)
+  StartYear1: 2018
+  EndYear1: 2019
+  CheckDateURL1: "states/new-york?date=2018-12-10%2011:11:15"
+  ColorCode2: 
+    Hex: 115a40b
+    RGB: rgba(17, 90, 64, 1)
+  StartYear2: 2019
+  EndYear2: 2020
+  CheckDateURL2: "states/new-york?date=2019-12-01%2011:11:15"
+  
+BrandscapeCore:
+  Name: BrandscapeCoreAutomation
+  ColorCode1: 
+    Hex: 3ee81d
+    RGB: rgba(62, 232, 29, 1)
+  StartYear1: 2018
+  EndYear1: 2019
+  CheckDateURL1: "?date=2018-12-10%2011:11:15"
+  ColorCode2: 
+    Hex: bc2a0e
+    RGB: rgba(188, 42, 14, 1)
+  StartYear2: 2019
+  EndYear2: 2020
+  CheckDateURL2: "?date=2019-12-01%2011:11:15"  
+  
+BrandscapeMagazine:
+  Name: BrandscapeMagazineAutomation
+  ColorCode1: 
+    Hex: 3ee81d
+    RGB: rgba(62, 232, 29, 1)
+  StartYear1: 2018
+  EndYear1: 2019
+  CheckDateURL1: "magazine/?date=2018-12-10%2011:11:15"
+  ColorCode2: 
+    Hex: bc2a0e
+    RGB: rgba(188, 42, 14, 1)
+  StartYear2: 2020
+  EndYear2: 2021
+  CheckDateURL2: "magazine/?date=2020-12-01%2011:11:15"     
+  
+BrandscapeMedia:
+  Name: BrandscapeMediaAutomation
+  ColorCode1:
+    Hex: 23449e
+    RGB: rgba(35, 68, 158, 1)
+  StartYear1: 2018
+  EndYear1: 2019
+  CheckDateURL1: "media/?date=2018-12-10%2011:11:15"
+  ColorCode2: 
+    Hex: 115a40
+    RGB: rgba(17, 90, 64, 1)
+  StartYear2: 2019
+  EndYear2: 2020
+  CheckDateURL2: "media/?date=2019-12-01%2011:11:15" 
+  
+# LIVE BLOG -----------------------------------------------
+
+StoryEnhancement:
+  Headline: "Russian hacking crisis tests Obamas nerve Automation"
+  Dek: "Russian hacking crisis tests Obamas nerve Automation Dek"
+  Tease:  "Russian hacking crisis tests Obamas nerve Automation Tease"
+  Body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu tempor nisl. Integer tempus tellus quis risus convallis aliquet. Vivamus consectetur risus tortor, sit amet aliquam purus elementum a. Quisque egestas dolor odio, ut tempor enim sollicitudin in. Vivamus ullamcorper metus nec efficitur tempus. Maecenas ex est, venenatis mattis nisi quis, cursus pretium sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed consequat venenatis eros sed tristique. Aenean ut neque elit.'
+  Category: Magazine
+  Contributor: 'Ted Hesson (POLITICO Reporter)'
+  LiveBlog_Enhancement: 'Automation Live Blog For Enhancement'
+  
+    
+# NEWSLETTER SIGNUP ---------------------------------------
+
+NewsletterUser:
+  FirstName: Automation
+  LastName: NewsletterUser
+  Title: Tester
+  Password: Qatest@123
+  Email_01: AutomationUser01@yopmail.com
+  Email_02: AutomationUser02@yopmail.com
+  Email_03: AutomationUser03@yopmail.com
+  Email_04: AutomationUser04@yopmail.com
+  Email_05: AutomationUser05@yopmail.com
+  Email_06: AutomationUser06@yopmail.com
+  Email_07: AutomationUser07@yopmail.com
+  Email_08: AutomationUser08@yopmail.com
+  Email_09: AutomationUser09@yopmail.com
+  Email_10: AutomationUser10@yopmail.com
+  Email_11: AutomationUser11@yopmail.com
+  Email_12: AutomationUser12@yopmail.com
+  
+  
+    
+NewsletterNewUser: NewsletterNewUser@yopmail.com   
+
+EnhancedSignUp:
+  Label: Automation Enhanced Signup
+  ModuleHeading: Signup for the Subscription Automation
+
+OnMultiplePages_Blog: "The2017Floundering DND"
+
+
+NewsletterSignUp:
+  Blog:
+    Title: TheFlounderingAutomation
+    Dek: Automation Blog Dek
+    Description: "When I moved back to Nashville one thing I was excited about was all the great opportunities there are to hear great live music. "
+    BlogLogo: 'publicdomain-pixabay-test-keyboard-361515.jpg'
+    
+Core_Newsletter:
+  Title: The2017BlastAutomation
+  Description: "A presidential debate with a run-up like no other in U.S. history devolved into a mass of insults and aspersions like no other in American history"
+  Category: "Policy: Agriculture"
+  
+CoreNewsletterEntry:
+  Headline: "Partners suppressed audience for documentary critical of client Herbalife Automation"
+  Body: "Partners suppressed audience for documentary critical of client Herbalife"
+  Contributor: 'Ted Hesson (POLITICO Reporter)'
+  Category: "Policy: Agriculture"
+  Newsletter: "Morning Agriculture - POLITICO"
+  
+Signup_TrackerBlog:
+  Title: OnMediaBlog Automation
+  Dek: "Partners suppressed audience for documentary critical of client Herbalife"
+  Logo: 'publicdomain-pixabay-test-keyboard-361515.jpg'
+  
+Signup_Reporter:
+  Title: PoliticoReporterAutomation
+  Person:
+    FullName: PoliticoPersonAutomation
+    Bio: "Welcome to the Bio Page of "
+    Email: AutomationPerson@yopmail.com
+    
+# -------------------    
+States_OnMultiplePages_Blog: AutomationStatesBlog for NewsletterSignUp
+
+States_SignUp_Module: "New York Playbook"
+
+StatesEnhancedSignUp:
+  Label: Automation States Enhanced Signup
+  ModuleHeading: Signup for the Subscription Automation
+  
+StatesNewsletterSignUp:
+  Blog:
+    Title: The Floundering Blog States Automation
+    Dek: Automation Blog Dek
+    Description: "This is a Blog to test Newsletter Sign Up on Multiple Pages for States"
+    BlogLogo: 'publicdomain-pixabay-test-keyboard-361515.jpg'  
+    
+StatesNewsletterNewUser: NewsletterStatesNewUser@yopmail.com    
+
+StatesNewsletterEntry:
+  Headline: "Partners suppressed audience for documentary critical of client Herbalife Automation"
+  Body: "Partners suppressed audience for documentary critical of client Herbalife Automation"
+  Contributor: 'David Siders (States Reporter)'
+  Region: New York
+  
+  
+StatesNewsletter:
+  Title: The2017StatesBlast Automation
+  Description: "A presidential debate with a run-up like no other in U.S. history devolved into a mass of insults and aspersions like no other in American history"
+  Category: "Policy: Agriculture"  
+    
+# Congressional Directory ---------------------------------------
+
+Congressional_Directory:
+  Email01: AutomationUser@yopmail.com
+  FirstName01: Automation
+  LastName01: NewsletterUser
+  SearchTerm01: Abbott,Donald
+  Password01: Qatest@123
+  
+NewsletterNewUsercd: NewsletterNewUser@yopmail.com   
+
+EnhancedSignUpcd:
+  Label: Automation Enhanced Signup
+  ModuleHeading: Automation EnhancedSignUp Heading
+
+OnMultiplePages_Blogcd: Automation Blog for Newsletter SignUp
+
+NewsletterSignUpcd:
+  Blogcd:
+    Title: Automation Blog To Test EnhancedSignUp
+    Dek: Automation Blog Dek
+    Description: "This is a Blog to test Newsletter Sign Up on Multiple Pages"
+    BlogLogo: 'publicdomain-pixabay-test-keyboard-361515.jpg'
+    
+  
+
+# ProTagging Enhancement ---------------------------------------
+
+ProTagging_Enhancement:
+  Email: AutomationUser@yopmail.com
+  FirstName: Automation
+  LastName: NewsletterUser
+  CMS_User01: pte_cmsuserwest01@yopmail.com
+  Password: Qatest@123
+  LocalTag_veriifcation: local_tag_pro1
+  Tag_NotPresentVerification: Casinos
+
+#---------------------------Agenda users--------------------------------------------------
+Agenda_CMS_User1:
+  username: AgendaCMSUser001@yopmail.com
+  password: 'Welcome1!'
+ 
+Agenda_CMS_User2:
+  username: AgendaCMSUser002@yopmail.com
+  password: 'Welcome1!'
+  
+Agenda_CMS_User3:
+  username: AgendaCMSUser003@yopmail.com
+  password: 'Welcome1!'
+  
+Agenda_CMS_User4:
+  username: AgendaCMSUser004@yopmail.com
+  password: 'Welcome1!'
+ 
+Agenda_CMS_User5:
+  username: AgendaCMSUser005@yopmail.com
+  password: 'Welcome1!'
+
+#---------------------------Magazine users--------------------------------------------------
+Magazine_CMS_User1:
+  username: MagazineCMSUser001@yopmail.com
+  password: 'Welcome1!'
+ 
+Magazine_CMS_User2:
+  username: MagazineCMSUser002@yopmail.com
+  password: 'Welcome1!'
+  
+Magazine_CMS_User3:
+  username: MagazineCMSUser003@yopmail.com
+  password: 'Welcome1!'
+  
+Magazine_CMS_User4:
+  username: MagazineCMSUser004@yopmail.com
+  password: 'Welcome1!'
+ 
+Magazine_CMS_User5:
+  username: MagazineCMSUser005@yopmail.com
+  password: 'Welcome1!'
+
+#---------------------------States users--------------------------------------------------
+
+States_CMS_User1:
+  username: StatesTestUser01@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User2:
+  username: StatesTestUser02@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User3:
+  username: StatesTestUser03@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User4:
+  username: StatesTestUser04@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User5:
+  username: StatesTestUser05@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User6:
+  username: StatesTestUser06@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User7:
+  username: StatesTestUser07@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User8:
+  username: StatesTestUser08@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User9:
+  username: StatesTestUser09@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User10:
+  username: StatesTestUser10@yopmail.com
+  password: 'Welcome1!'
+  
+States_CMS_User10:
+  username: AutomationStatesUser001@yopmail.com
+  password: 'Welcome1!'
+
+  
+
+#---------------------------PRO Users--------------------------------------------------
+
+PRO_CMS_User1:
+  username: Pro_CMS_User01@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User01:
+  username: Pro_CMS_User01@yopmail.com
+  password: 'Welcome1!'  
+  
+PRO_CMS_User2:
+  username: Pro_CMS_User02@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User3:
+  username: Pro_CMS_User03@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User4:
+  username: Pro_CMS_User04@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User5:
+  username: Pro_CMS_User05@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User6:
+  username: Pro_CMS_User06@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User7:
+  username: Pro_CMS_User07@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User8:
+  username: Pro_CMS_User08@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User9:
+  username: Pro_CMS_User09@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User10:
+  username: Pro_CMS_User10@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User11:
+  username: Pro_CMS_User11@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User12:
+  username: Pro_CMS_User12@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User13:
+  username: Pro_CMS_User13@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User14:
+  username:  westprouser31march17@yopmail.com #NOT WORKING
+  password: 'Qatest@123'
+  
+PRO_CMS_User15:
+  username:  westprouser4April01@yopmail.com
+  password: 'Qatest@123' 
+  
+PRO_CMS_User16: 
+  username: Pro_CMS_User14@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User17:
+  username: Pro_CMS_User17@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User18:
+  username: Pro_CMS_User18@yopmail.com
+  password: 'Welcome1!'
+ 
+PRO_CMS_User19:
+  username: Pro_CMS_User19@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User20:
+  username: Pro_CMS_User20@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User21:
+  username: Pro_CMS_User21@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User22:
+  username: Pro_CMS_User22@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User23:
+  username: Pro_CMS_User23@yopmail.com
+  password: 'Welcome1!'
+
+PRO_CMS_User24:
+  username: Pro_CMS_User23@yopmail.com
+  password: 'Welcome1!'
+  
+ 
+PRO_CMS_User25:
+  username: Pro_CMS_User23@yopmail.com
+  password: 'Welcome1!'
+  
+GlobalCMSUser:
+  username: GlobalCMSUser@yopmail.com
+  password: 'Welcome1!'
+ 
+# UNUSED    
+PRO_CMS_User26:
+  username: Pro_CMS_User23@yopmail.com
+  password: 'Welcome1!'
+  
+PRO_CMS_User27:
+  username: Pro_CMS_User23@yopmail.com
+  password: 'Welcome1!'
+  
+#Editor Role
+Pro_Editor:
+  username: TestAutomationEditor01@yopmail.com
+  password: 'Welcome1!'  
+  
+# --------------------------------- Pro Tagging Enhancements -------------------------------------
+
+PTE_Tag:
+  Name: PoliticoTagAutomation
+  StatesTag: PoliticoStatesTagAutomation
+  Name1: TagAutomation
+  
+PTE_LocalTag:
+  Name: PoliticoLocalTagAutomation
+  TestPolicyVertical: TestPolicyVertical
+  ExistingPolicy: Agriculture
+  Username: TestLocalTagUser@yopmail.com
+  Password: Qatest@123
+  Name1: PoliticoLocalTagAutomation1
+    
+PTE_ProEditor:
+  Username: TestLocalTagsProEditor@yopmail.com
+  Password: 'Welcome1!' 
+  LocalTag1: TestLocalTag001
+  LocalTag2: TestLocalTag002 
+  
+PTEStates:
+  Name: PoliticoStatesLocalTagAutomation
+  Region: New York
+  TestPolicyVertical: City Hall
+  ExistingPolicy: Albany
+  Username: TestStatesLocalTag@yopmail.com
+  Password: Qatest@123
+  TestStatesPolicy: TestStatesPolicy
+  
+#-------------------------------Front End - Calendar ----------------------------------------------
+  
+CalendarUser:
+  username: TestCalendarUser001@yopmail.com
+  password: Qatest@123
+  selectPolicy: Energy
+
+MyCalendarPageTitle: All Events - POLITICO Pro
+
+Calendar01:
+  Title: House Oversight and Government Reform Committee - Hearing Automation
+  TypeFilter: General News Event
+  PolicyFilter: Energy
+  
+Calendar02:
+  Title: Joint Economic Committee - Hearing Automation
+  TypeFilter: House Committee Event
+  PolicyFilter: Technology
+
+CalendarFilters: 
+  KeywordSearch: "Defense Secretary James Mattis's Schedule"
+  Tag: Energy
+  Type: 'SENATE COMMITTEE EVENT'
+  Policy: Energy
+
+TagFilters:
+  Fuels
+  Tobacco  
+  
+TypeFilters:
+  General_News_Event
+  Economic_Report_Event
+  
+AndOfFilters:
+  Policy1: Energy
+  Type1: House Committee Event
+  Type2: Economic Report Event
+
+PolicyFilters: 
+  Energy
+  Health_Care    
+
+CalendarUser_AssignedPolicies:
+  Energy
+  Trade
+  Technology
+  Health_Care
+  Education
+  Campaigns
+  Europe_Brief
+  
+CalendarForSubscription: 
+  Username: TestCalendarUser002@yopmail.com
+  Password: Qatest@123
+  Type: 'General News Event'
+  Policy: Energy
+  Title: 'Subscription Calendar'
+
+CalendarEvent: 'Commerce Department (DOC); National Oceanic and Atmospheric Administration (NOAA); National Marine Fisheries Service (NMFS) (F.R. Page 21809) - Meeting'
+  
+CalendarPolicy1: Test Automation Policy  
+
+PolicyCalendar:
+  PolicyName: Automation Policy
+  TagPageName: Automation Tag Page
+  ModuleCalendarName: Automation Module Calendar
+  CalendarName: Politico Calendar Automation
+  TagPageSubhead: Tag Page SubHead
+  TagPageMoreFromHeader: Tag Page More From Header
+  CalendarTitle:  Politico Calendar AutomationTitle
+  CalendarMailTo: procalendar@politico.com
+  ExternalLinkText: Submit event
+  ExternalLinkURL: mailto:procalendar@politico.com
+  InternalLinkText: Full calendar
+  EventTitle: "The Defense Strategies Institute - Summit Automation"
+  EventDetails: "The Defense Strategies Institute - Summit Automation"
+  EventType: House Committee Event
+  EventTopic: Special Events
+  Username: TestPolicyCalendarUser@yopmail.com
+  Password: Qatest@123
+  
+#-----------------------------------------------------------------------------
+Do_Not_Delete_Content_Type:
+  story: DONot_Delete_Story_22March2017
+  breakingNewsStory: DONot_Delete_BreakingNewsStory22March2017
+  sponsoredStory: DONot_Delete_SponsoredStory22March2017
+  cartoonGallery: DONotDeleteCartoonGallery22March2017
+  photoGallery: DONot_Delete_PhotoGallery22March2017
+  blogPost: DONot_Delete_BlogPost22March2017
+  core_user: TestUserForVerification@yopmail.com
+  password: 'Qatest@123'
+  
+# -------------------------------- PGE Data ---------------------------------------------
+
+Whiteboard:
+  Headline: "Senate clears way for passage of spending bill"
+  Body: "Senate clears way for passage of spending bill"
+  Policy: 'Technology'
+  ProReporter: 
+    Name: 'Ted Hesson (POLITICO Pro Reporter)'
+    Role: Reporter
+  ProContributor:
+    Name: 'Varun Contributor (POLITICO Pro Contributor)'
+    Role: Contributor
+  ProStaffMember:
+    Name: 'Jessica Cuellar (POLITICO Pro StaffMember)'
+    Role: Staff Member
+
+ProAllLicenseUser:
+  Username: TestAllLicenseUser001@yopmail.com
+  Password: Qatest@123
+  FirstName: "All License"
+
+PGE98_DataPoint:  
+  CustomizedUser: AutomationDataPointUser@yopmail.com
+  NewUser: AutomationDataPoint@yopmail.com
+  Password: Qatest@123
+  SubscribedTopics: 
+    Financial_Services
+    Energy
+    Health_Care
+    
+PGE1_NewsletterSubscription:  
+  NewUser: AutomationNewsletterUser@yopmail.com
+  StatesUser: AutomationStatesNewsletter@yopmail.com
+  Password: Qatest@123
+  Policy1: Health_Care
+  Policy2: Education
+  StatesPolicy1: City_Hall
+  
+PGE146_ProUser:
+  InactiveUsername: AutomationInactiveUser@yopmail.com
+  Password: Qatest@123
+  ActiveUsername01: AutomationActiveUser01@yopmail.com
+  ActiveUsername02: AutomationActiveUser02@yopmail.com  
+  ActiveUsername03: AutomationActiveUser03@yopmail.com
+  
+PGE338_Newsletter:
+  title: The2020Tipsheet Automation
+  description: "Welcome to the 2020 Tipsheet. This is the newsletter for the POLITICO site."
+  subjectPrefix: Subject Prefix for Tipsheet
+  category: "Policy: Agriculture" 
+  magazineCategory: "Magazine" 
+  proPolicy: "Agriculture" 
+  statesRegion: "New Jersey"   
+  
+PGE241_ProUser:
+  Username: TestUserForPGE241@yopmail.com  
+  
+PGE579_States:
+  LocalTag: "PGE579 States LocalTag"
+  TagPage: "PGE579 States TagPage"  
+  
+PGE518_DataPoint:
+  CheckedTitle: "CHECKED - A Mission to New Orleans Automation"
+  UncheckedTitle: "UNCHECKED - A Mission to New Orleans Automation"
+  Tease: "A Mission to New Orleans Automation Tease"
+  ProContributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  Description: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  Author: Ted Hesson
+  PolicyVertical: DataPoint
+  Tag1: Energy
+  Tag2: Tax    
+  
+PGE527_ProWatch:
+  Title: "India's PM Narendra Modi to visit US - AutomatuionData"  
+  ProWatchTemplateURL: "https://subscriber-stage.politicopro.com/indias-pm-narendra-modi-to-visit-us-automatuiondata"
+PGE528_ProWatch:
+  Title: "PGE528 Pro Watch DND"
+  WatchItemLink: 
+    Text: "POLITICO WatchItem"
+    URL: "https://www.politico.com/"
+  WatchRichText: 
+    Text: "POLITICOPro WatchRichText"
+    Value: "https://www.politico.com/agenda/"
+    
+PGE528_ProWatch_Fields:
+  Watch_Item_01
+  Watch_Item_02
+  Watch_Rich_Text_03
+  Watch_Rich_Text_04    
+  
+# ----------------------------------- CGE --------------------------------------
+
+CGE2_MemberRegistration:
+  PresentText: "Subscribe now to get more of POLITICO�s politics and policy coverage, delivered to your inbox."
+  AlreadyAMemberText: "Already a member ? sign in"
+
+CoreUser:
+  Username: TestWestCoreUser@yopmail.com
+  Password: Qatest@123
+  
+
+
+
+
+
+
+
+
+
+
+# ----------------------------------- CRC ---------------------------------------    
+    
+CRC_DP_GraphicSubjects:
+  Federal
+  State
+  Banking
+  Budget
+  Congress
+  Election
+  Index/Indicator
+  Judiciary
+  Labor
+  Private_sector
+  Regulatory_Rulemaking
+  Transition
+  White_House
+  Other
+
+CRC_DP_GraphicType:
+  Current_Event_One-Pager
+  Explainer_Narrative
+  Explainer_Analysis
+  Explainer_Narrative/Analysis
+  Directory
+  Poll
+  Other
+  
+Careers:
+  Title: Dan White  
+  
+  
+# Congressional Directory ---------------------------------------
+
+Congressional_Directory:
+  Email: TestUserCD2208@yopmail.com
+  FirstName: Automation
+  LastName: NewsletterUser
+  SearchTerm: Abbott,Donald
+  Password: Qatest@123
+  Email2 : TestUserCD2108@yopmail.com
+  Password2 : Qatest@123
+  Email3 : TestUserCD2707@yopmail.com
+  Password3 : Qatest@123
+  Email4 : TestUserCD2308@yopmail.com
+  Password4 : Qatest@123
+  Email5 : TestUserCD2408@yopmail.com
+  Password5 : Qatest@123
+  Email6 : TestUserCD2508@yopmail.com
+  Password6 : Qatest@123
+  Email7 : TestUserCD2608@yopmail.com
+  Password7 : Qatest@123
+  Email8 : TestUserCD2708@yopmail.com
+  Password8 : Qatest@123
+  Email9 : TestUserCD2808@yopmail.com
+  Password9 : Qatest@123
+  
+CD_Member:
+    name: Barrasso, John
+    region: (WY)
+    commitee : Senate Republican Policy Committee Chair
+    serving_time:  Serving in Senate since  June 2007
+    name1: Baldwin, Tammy
+    
+CD_Pagination:
+ Districts:
+  AL-2
+  AZ-1
+  AZ-8  
+  
+#---------------------------------- Front End - Pro User for DataPoint---------------------
+ 
+DataPointGraphicName: RNC cuts off Moore
+
+DataPointGraphicURL: 'https://subscriber-stage.politicopro.com/datapoint/2017/05/datapoint-graphic-headlinefri-may-05-17-09-18-ist-2017-000217'
+
+DataPointGraphicContent: The Tax Foundation's projected gains in employment and income, by state
+
+USP_DataPointTopics:
+  Economy
+  Energy/Environment
+  Health_Care
+  Other 
+  Real_Estate/Infrastructure 
+  
+USP_DataPointPolicies:
+  Energy
+  Tax
+  Transportation
+
+DataPointUser_Policies:
+  Energy
+  DataPoint
+  Tax
+  
+# PRO User WEST COAST - Front End Data ---------------------------------------
+
+AutomationOrganization: QAIT Automation Organization
+AutomationDivison: Pro Division
+AutomationStatesDivision: States
+
+StatesCoreUser:
+  Username: TestStatesCoreUser001@yopmail.com
+  Password: Qatest@123
+
+ProOnlyUserWithoutLC:
+ username: ProLicensedUserAutomation@yopmail.com  
+ password: Qatest@123
+ 
+StateOnlyUserWithoutLC:
+  username: StateUserWithoutLC@yopmail.com
+  password: Qatest@123
+  
+ProUserWithLC:
+  username: ProWithLCwoDPUser@yopmail.com
+  password: Qatest@123
+
+ProWithDatapointUser:
+  username: ProUserDatapoint@yopmail.com
+  password: Qatest@123
+
+CMS:
+  user: WestCoastLoad174@yopmail.com
+  password: Welcome1!
+
+Pro_User:
+  username: TestWest_ProUser@yopmail.com
+  password: Qatest@123
+  forgotPW_User: west_automation_user@yopmail.com
+  
+Pro_User1:
+  username: TestUser040901@yopmail.com #deactivated
+  password: Qatest@123 
+
+Pro_User2:
+  username: AutomationFEUser091820171125@yopmail.com #without CD ACCESS
+  password: Qatest@123   
+    
+Pro_User3:
+  username: AutomationFEUserTueOct17123357IST2017@yopmail.com	
+  password: Qatest@123 
+
+Pro_User_InvalidCredentials:
+  username: TestWest_Pro@yopmail.com
+  password: Qatest
+  
+ProUser_InvalidEmail_ValidPassword:
+  username: TestWest_Pro@yopmail.com
+  password: Qatest@123
+  
+ProUser_ValidEmail_InvalidPassword:
+  username: TestWest_ProUser@yopmail.com
+  password: Qatest
+
+ProFrontEndUser:
+  username: AutomationProUser20sep17@yopmail.com
+  password: Qatest@123
+
+ProNewsletterUser:
+  username: AutomationProUser20sep17@yopmail.com
+  password: Qatest@123
+  
+ProUser_Calendar:
+  username: westcoast0504@yopmail.com
+  password: Qatest@123
+  
+ProUser:
+  valid_CurrentPwd: Qatest@123
+  invalid_CurrentPwd: Qatest
+  valid_NewPwd: Qatest@1234
+  invalid_VerifyNewPwd: Qatest@12
+  
+PolicyVerticalTest:
+  username: PolicyVerticalProUser01@yopmail.com
+  password: Qatest@123
+  
+Pro_LoginForTipsheet:
+  username: TestWestTipsheetUser@yopmail.com
+  password: Qatest@123
+  
+StatesCoreUser:
+  username: TestStatesCoreUser01@yopmail.com
+  password: Qatest@123
+  
+  
+ProCMS:
+  valid_Email: Test_CMSUser_01@yopmail.com
+  invalid_Email: Test_CMSUser@yopmail.com
+  valid_Pwd: Welcome1!
+  invalid_Pwd: Welcome
+
+ProUser_ResetPassword:
+  username: TestProUserResetPassword01@yomail.com
+  currentPwd: Qatest@123
+  newPwd: Qatest
+  
+Media_Reporter:
+  username: Qatest@yomail.com
+  password: Qatest@123
+  
+Media_Reporter1:
+  username: QatestAutomationUser@yopmail.com
+  password: Qatest@123
+  
+CMS_User:
+  username: WestCoastLoad174@yopmail.com
+  password: 'Welcome1!'
+ 
+Search_Organization: 'QAIT Automation Organization'
+Search_Organization_Division: 'Politico Pro'
+StatesOrganizationDivision: 'States'
+Search_User: TestWestSearchUser01@yopmail.com
+
+Edit_Pro_User:
+  userID: testwest_search_user01@yopmail.com
+  remove_License: 'Education'
+  add_License: 'Transition 2017'
+  new_UserID: testwest_changed_user01@yopmail.com
+  
+TestUserForPolicy:
+  username: TestPolicyUser@yopmail.com
+  password: Qatest@123
+  username1: Testusercdnotes@yopmail.com
+  password1: Qatest@456
+  FullName: Aarfor, Renae
+  FirstName: Aarfor
+  LastName: Renae
+  Title: District
+  SearchItem: Save  
+  
+Pro_Hamburger_Column:
+  Account
+  Federal_News
+  State_News
+  Newsletters_&_Tools
+  
+  
+  
+ProUser_AssignedPolicy:
+  Education
+  Health_Care
+  Tax
+  
+ProUser2_AssignedPolicy:
+  Agriculture
+  Budget
+  Tax  
+  
+ProUser_UnassignedPolicy:
+  Energy
+  Defense
+  
+ProUser_AccessibleTipsheets:
+  CEO_Report
+  Afternoon_Pulse
+  POLITICO_Influence
+  The_2016_Blast
+
+ProUser_StateLicenses:
+  POLITICO_Florida
+  POLITICO_New_Jersey
+  POLITICO_New_York
+  
+ProUser2_StateLicenses:
+  POLITICO_Florida
+  POLITICO_New_Jersey
+  POLITICO_New_York   
+  
+  
+TestUserForTools:
+  username: TestToolUser@yopmail.com
+  password: Qatest@123
+   
+ProUser_AccessibleTools:
+  Documents
+  Calendar
+  Campaign_Pro_Race_Dashboard
+  
+  
+ProUser_UnAccessibleTools:
+  Legislative_Compass
+  
+ProUser_MyProSection:
+  Health_Care
+  Tax
+  Technology
+  Pro_Tools
+  Trending_Now
+  DataPoint
+  More_From_Pro
+  Custom_Keywords
+  
+ProUser_MoreFromPolitico:
+  Author_Alerts
+  POLITICO_Newsletters
+  
+ProUser_BudgetAndAppropriation_Subscription: "Budget & Appropriations"
+
+ProUser_Subscriptions:
+  Health_Care:
+    Pulse
+    Afternoon_Pulse
+    Pro_Pharmaceutical_Report
+    
+  Tax:
+    Morning_Tax
+    Pro_Tax_Report
+    
+  Education:
+    Morning_Education
+    Pro_Education_Report
+    
+MoreFromPro:
+  CEO_Report
+  POLITICO_Influence
+
+Pro_SponsoredStory:
+  headline: "A Mission to New Orleans Automation"
+  dek: "A Mission to New Orleans Automation Dek"
+  contributor:  'Ted Hesson (POLITICO Pro Reporter)'
+  body: "Nonprofit organizations depend on donor support to help communities and people in need."
+  
+Pro_CartoonGallery:
+  headline: Politico Cartoons Gallery Automation
+  dek: Politico Cartoons Automation Dek
+  contributor:  Ted Hesson (POLITICO Pro Reporter)
+  category: Education
+  totalImages: 1
+  
+Pro_PhotoGallery:
+  headline: Politico Photo Gallery Automation
+  dek: Politico Photos Automation Dek
+  contributorName: 'Ted Hesson (POLITICO Pro Reporter)'
+  category: 'Agriculture'
+  totalImages: 1
+  
+Pro_Newsletter:
+  headline: The2017ProBlast Automation
+  newsletter: 'Pro Report - POLITICO Pro'                
+  body: Nonprofit organizations depend on donor support to help communities and people in need.
+  contributorName: 'Ted Hesson (POLITICO Pro Reporter)'
+  category: 'Tax'
+  
+
+Magazine_Newsletter:
+  headline: The2017MagazineBlast Automation
+  newsletter: 'The 2016 Blast - POLITICO'
+  body: Automation Pro Newsletter
+  contributorName: 'Eli Berman (Magazine Contributor)'
+  category: 'Magazine'
+
+Pro_PolicyVertical: 
+  headline: Automation Policy Vertical
+  modify_headline: Policy Automation Vertical
+
+Pro_TagPage:  
+  name: AutomationTagPage
+  subhead: Automation Tag Page Subhead
+  moreFromHeader: Automation Tag Page More From Header
+  name1: AutomationTagPag1
+  
+Pro_Footer:
+   copyright_link: � 2018 POLITICO LLC
+   cd_copyright_link : � 2018 LegiStorm LLC. All rights reserved.
+
+  
+ProTagPage_Tabs:
+  Main
+  Modules
+  Series
+  Ads
+  Overrides
+  Layout
+  Syndication
+  SEO
+  
+ProTagPage_Main:
+  Name
+  Subhead
+  More_From_Header
+  Hide_More_From_Header?
+  Header_Display
+  Header_Image
+  Default_Image
+  Policy_Vertical
+  Any_Tags
+  Not_Tags
+  All_Tags
+  Query_Logic
+  
+ProTagPage_Modules:
+  Above_Super_Containers
+  Topmost_Containers
+  Top_Containers
+  Modules
+  Right_Rail_Modules
+  Above_Comment_Containers
+  Bottom_Containers
+
+ProTagPage_Series:
+  Series
+  Issue
+  
+ProTagPage_Ads:
+  Disable_Ads?
+  Ad_Unit_Override
+  Ad_Slot_Config_Override
+  
+ProTagPage_Overrides:
+  Hide_Sharebar?
+  Social_Headline
+  Og_Title
+  Og_Description
+  Og_Image
+  Twitter_Title
+  Twitter_Description
+  Twitter_Image
+  Banner_Option
+  Tealium_Page_Name
+  Tealium_Page_Type
+  Tealium_Site_Section
+  
+ProTagPage_Layout:
+  Brandscape_List
+  
+ProTagPage_Syndication:
+  Rss_Urls
+  Number_Of_Items_In_Feed
+  Full_Body?
+  Rss_Image
+  
+ProTagPage_SEO:
+  Change_Frequency
+  Priority
+  Title
+  Description
+  Keywords
+  Robots
+ 
+Pro_Tipsheet:
+  title: The2020ProTipsheet Automation
+  description: Welcome to the 2020 Tipsheet
+  subjectPrefix: Subject Prefix for Tipsheet
+  groupVertical: Education
+  
+Pro_TipsheetArchive:
+  title: The2020TipsheetArchive Automation
+  dek:  Welcome to the 2020 Tipsheet Archive
+ 
+Search_Tags:
+  Defense_Appropriations
+  Advocacy
+  Virginia
+  CMMI
+  Pharmacy
+  Cybersecurity
+  Texas
+  
+AdvancedSearch_PolicyTags:
+  Budget & Appropriations
+  Education
+  Health_Care
+  Tax
+  
+Pro_FilterTerm:
+   OrgName: TestOrgForFilterSearch1
+   DeactivateGenTerm: TestOrgForDeactivateFilter
+   DeactivatedYesOrg: TestOrgForDeactivateFilterYes
+   DeactivatedNoOrg: TestOrgForDeactivateFilterNo
+   IPAccessGenTerm: TestOrgForIPAccessFilter
+   IPAccessYesOrg: TestOrgForIPAccessFilterYes
+   IPAccessNoOrg: TestOrgForIPAccessFilterNo
+   OrgStatusGenTerm: Test_Org_Thu Apr 13 19:31
+   OrgStatusYesOrg: Test_Org_Thu Apr 13 19:31:37 IST 2017
+   OrgStatusNoOrg: Test_Org_Thu Apr 13 19:31:46
+   FilterForNoUser: FilterSearchTestingProUser 
+   DeactivateFilterYesUser: FilterDeactivatedUser
+   IPAccessActiveUser: Test-2march17-sa01-IPorg-ipaccess
+   ProActiveUser: FilterAutomationProActiveUser
+   ExpiredLicenseUser: FilterExpiredLicenseUserPro
+   ProCustomisedUser: FilterCustomisedProAutomationUser 
+   
+ActiveLicenses: 
+  Energy
+  Defense
+  eHealth
+  Technology
+  
+LicenseWithInvalidDate:
+  Agriculture
+  
+LicenseWithFutureStartDate:
+  Cybersecurity
+  
+DataPoint_Licenses:
+  DataPoint
+  Energy
+  
+Document:
+  title: AutomationDocumentTitle
+
+CRS_Document:
+  title: "China US Trade Issues Automation"
+  CRSReport: TestCRSReport
+  cronExpressionPdfImporter: 0 0/2 * * * ?
+  username: Automation_DocumentDrawerProWest@yopmail.com
+  password: Qatest@123
+  licenseduser: AutomationLicensedUser_DocumentDrawerProWest@yopmail.com
+  password_licenseduser: Qatest@123
+#-----------------------------------------------------------------------------
+  
+Magazine_Story: Test Story for Magazine - 09th February 17
+Magazine_Reporter_Advanced_Search: POLITICO Magazine
+Magazine_ContentPlacement_StoryURL: http://cms-west.ops.politico.com/magazine/story/2016/10/how-republicans-could-replace-trump-even-if-he-stays-in-214336
+#-----------------------------IP Access Data---------------------------
+  
+Extension_HeaderURL: chrome-extension://idgpnmonknjnojddfkpgkljpfnnfcklj/popup.html
+Magazine_Reporter_Advanced_Search: POLITICO Magazine
+Magazine_ContentPlacement_StoryURL: http://cms-west.ops.politico.com/magazine/story/2016/10/how-republicans-could-replace-trump-even-if-he-stays-in-214336
+
+# ---------------- CORE REFRESH --------------------------------------------
+ 
+CoreFeUser:
+  Username: CoreRefreshUser001@yopmail.com
+  Password: Qatest@123
+
+AgendaCMSUSer: 
+  Username: AgendaCMSUser@yopmail.com
+  Password: 'Welcome1!'
+  
+CoreHeaderTitle: "Core Header 18 Automated"
+StatesHeaderTitle: "States Header"
+AgendaHeaderTitle: "Agenda Header 18 refreshed"
+MediaHeaderTitle: "Media Core Header"
+
+  
+HeaderComponent_FollowUs: 
+  TextExternal: "Google_FU_Ext"
+  TextInternal: "Google_FU_Int"
+  URL: "https://www.google.co.in/"
+  Content: "White House aides already anxious about 2018"
+  
+  
+HeaderComponent_RightSided: 
+  TextExternal: "Google_RS_Ext"
+  TextInternal: "Google_RS_Int"
+  URL: "https://www.google.co.in/"
+  Content: "White House aides already anxious about 2018"
+
+HeaderComponent_Newsletter: "Prescription Pulse"
+HeaderComponent_Sections: "Politics"
+
+Article_FloridaCoreURL: "https://west.ops.politico.com/states/florida/article/2018/03/06/white-house-slaps-new-financial-sanctions-on-venezuela-qa-test-108800"
+Article_AgendaURL: "https://west.ops.politico.com/agenda/story/2018/03/06/white-house-slaps-new-financial-sanctions-on-venezuela-000855"
+BNArticle_MediaURL: "https://west.ops.politico.com/media/story/2018/03/06/white-house-slaps-new-financial-sanctions-on-venezuela-qa-test-005520"
+
+QuickPops_PromoItem_Asset: "How Trump has already scored a win on infrastructure"
+QuickPops_PromoItem_Asset_2: "Lincoln Chafee drops out of Democratic race"
+DeltaContainer_ItemSolo_Promo18: "Lincoln Chafee drops out of Democratic race"
+DeltaContainer_ItemDuo_ColumnOnePromo: "Republican floats measure to kill Mueller probe after 6 months"
+DeltaContainer_ItemDuo_ColumnTwoPromo: "White House aides already anxious about 2018"
+DeltaContainer_ItemTrio_ColumnOnePromo: "Carter opens all military combat jobs to women"
+DeltaContainer_ItemTrio_ColumnTwoPromo: "World grabbed in fever of Cryptocurrency"
+DeltaContainer_ItemTrio_ColumnThreePromo: "Obamacare repeal vote unlikely this week"
+
+ModuleItemTrio: 
+  ItemSolo_Promo18: "Lincoln Chafee drops out of Democratic race"
+  ItemDuo_ColumnOnePromo: "Republican floats measure to kill Mueller probe after 6 months"
+  ItemDuo_ColumnTwoPromo: "White House aides already anxious about 2018"
+  ItemTrio_ColumnOnePromo: "Carter opens all military combat jobs to women"
+  ItemTrio_ColumnTwoPromo: "World grabbed in fever of Cryptocurrency"
+  ItemTrio_ColumnThreePromo: "Obamacare repeal vote unlikely this week"
+
+LeadPackage_MagazineArticle_AdditionalContent: "Article testing and its magazine work"
+LeadPackage_MagazineArticle_LeadContent: "Is Joe Arpaio the Next Roy Moore?"
+LeadPackage_AgendaArticle_AdditionalContent: "Article agenda testing and it approach"
+LeadPackage_AgendaArticle_LeadContent: "Article on Agenda Behind the Bitcoin bubble"
+LeadPackage_PhotoGallery_LeadContent: "Photo Gallery 1 Priebus made attempt to halt personal email use25012018015007"
+LeadPackage_PhotoGallery_AdditionalContent: "Photo gallery and its icon representation"
+LeadPackage_ShellArticle_LeadContent: "The 270 people connected to the Russia probes"
+LeadPackage_ShellArticle_AdditionalContent: "What EPA chief Scott Pruitt promised � and what he�s done"
+LeadPackage_ShellArticle_LeadContentURL: "https://www.politico.eu/article/british-lobbyists-eu-commission-meps-brexit/"
+LeadPackage_ShellArticle_LeadContentLinkHeadline: "Decline and fall of the British lobbying empire"
+
+PWR62_CharlieContainer:
+  LeftColumnTitle:
+    DefaultInput: "Quick Pops"
+    HelpText: "Displays as the section header name on the left rail"
+  CenterAndRightColumnTitle:
+    DefaultInput: "Top News"
+    HelpText: "Displays as the section header name on the center well & right rail"
+
+PWR348_Content:
+  Article: 
+    Title: "House Republicans coalesce behind plan to avert shutdown MostReadAutomation Article"
+    Contributor: "Danny Vinik (POLITICO Reporter)"
+  Video: 
+    Title: "How Trump has already scored a win on infrastructure MostReadAutomation Video"
+  PhotoGallery: 
+    Title: "Lincoln Chafee drops out of Democratic race MostReadAutomation PhotoGallery"
+  CartoonGallery: 
+    Title: "Carter opens all military combat jobs to women MostReadAutomation CartoonGallery"
+  BlogPost: 
+    Title: "Priebus made attempt MostReadAutomation BlogPost"    
+  PoliticoContributor: "Danny Vinik (POLITICO Reporter)" 
+  
+
+
+MostReadModule:
+  Label: "Recent Updates"
+  Range: "This Week"
+  TabTitle: "MostRead"
+  MaxCount: "10" 
+  CoreSite: "POLITICO"
+
+MostRead_ContentList:
+  Article
+  Videos
+  Photo_Galleries
+  
+Politico_MostPopularTabbed_Content:
+  Article
+  Videos
+  Photo_Galleries
+  Blog_Posts
+  Cartoon_Galleries
+
+PWR1084:
+  CartoonGalleryContent: "God Made Me Black on Purpose Automation Cartoon Gallery"
+  PhotoGalleryContent: "Trump gives it to Democrats on a silver platter Automation Photo Gallery"
+  
+CharlieContainer_HelpText: "container-charlie-9-on-6-3"  
+  
+PoliticLiveURL: "https://west.ops.politico.com/live-events"   
+     
+CoreHeader_Components:
+  Hamburger_Menu_Component
+  MAGAZINE_NAVIGATION
+  THE_AGENDA_NAVIGATION
+  PRO_NAVIGATION
+  SEARCH
+
+ArticleList_Promo18Content: "Obama rejects Keystone XL pipeline"
+ItemSolo_Promo18: "Lincoln Chafee drops out of Democratic race"
+
+EnhancedSignup:
+  Subscription: "Print Magazine"
+  ModuleHeading: "HomePageAlfaContainerSignup"
+  Layout: "Horizontal Slim"
+  
+Article:
+  Magazine: "Senate immigration debate ends in failure - Automation Magazine Article"
+  Agenda: "The cherries we want are really sick people - ItemSolo Agenda Automation"
+  Politico: "Moore forces seek retribution against Shelby"
+  
+PWR67: 
+  PhotoGallery: "Russia Is a Rogue State - Automation"
+  ShellArticle: "John Lewis to deliver Harvard commencement address - Automation"
+ 
+MagazineSlider:
+  CoverImageHelpText: "Displays as the first card in the slider. Politico Magazine wordmark logo will display by default if this field is left blank."
+  CoverLinkHelpText: "Use to define the link destination of the slider's first card. Leave blank to use the default of Magazine homepage."  
+  
+AlfaContainerLabel: "HomePageAlfaContainer"
+BravoContainerLabel: "HomePageBravoContainer"
+BFDContainerLabel: "HomePageBFDContainer"
+  
+StatesProUser:
+  Username: TestStatesProUser@yopmail.com
+  Password: Qatest@123   
+  
+ModuleItemSolo_StylePresetOptions:
+  Primary_Image_Bottom
+  Secondary_Image_Top
+  Secondary_Image_Bottom
+  Secondary_Image_Right
+  Secondary_Image_Left
+  Secondary_RCol_-_Right
+  Secondary_RCol_-_Left
+  Tertiary_Image_Right
+  Tertiary_Image_Right  
+  
+DeltaContainerModules:
+  Module:_Magazine_Slider
+  Module:_Enhanced_Sign_Up
+  Module:_Item_Duo
+  Module:_Item_Solo
+  Module:_Item_Trio
+  Module:_Section_Header
+  
+Video: Super Bowl anti-terrorism documents left on plane
+VideoLivestream:  Election momentum Livestream Video 18April2018 DoNotDelete
+BFDListTitle: ListTitleAutomation
+BFDTopHeadline: TopHeadline Automation
+
+CWR_EnhancedSignup:
+  LayoutDefault: Vertical Tall
+  Subscription: "The Friday Cover"
+  ModuleHeading: HomePageEnhancedSignup
+  Image: "baker_opEd.jpg"
+  Email: TestCwrUser@yopmail.com
+  Password: Qatest@123
+  
+
+CWR_EnhancedSignup_LayoutOptions:
+  Vertical_Tall
+  Vertical_Mini
+  Horizontal_Chunky
+  Horizontal_Slim
+  
+DoNotDeletealfaContainer: "DoNotDeleteAlfaContainer"  
+
+SectionHeader:
+  Logo: "Logo for section header"
+  Banner: "Event Header Banner" 
+  
+  
+
+  
+
+# --------------------------- PWR Data -----------------------------
+
+AutomationPolicy:
+  Name: 'Entertainment Automation Policy'
+  URL: 'entertainment-test-policy'
+  Username: TestAutomationPolicyUser@yopmail.com 
+  Password: Qatest@123
+  
+Federal_SubNavigationHeaders:
+  Calendar
+  Datapoint
+  Directory
+  Documents  
+  Legislation
+  
+Modified_SubNavigationHeaders:
+  Calendar
+  Datapoint
+  Directory
+  Documents  
+
+States_SubNavigationHeader:
+  Documents  
+  Legislation
+  
+NewYork_SubNavigationHeader:
+  Documents  
+  Legislation
+  Albany 
+  City_Hall
+  
+Albany_SubNavHeader:
+  Documents  
+  Legislation
+  New_York 
+  City_Hall
+
+CityHall_SubNavHeader:
+  Documents  
+  Legislation
+  New_York 
+  Albany
+
+
+UnlicensedLCAndDP:
+  Username: UnlicensedDPAndLC@yopmail.com
+  Password: Qatest@123  
+
+FederalPolicy1: Agriculture
+FederalPolicy2: Tax
+FederalPolicy3: Education
+FederalPolicy4: "Budget & Appropriations"
+
+     
+#-----------------------------------------------------------------------------  
+
+
+role: Editor
+
+resultPage:
+  resultText: results
+
+Tool_user:
+  name: Temporary
+  email: AutomationToolUser@yopmail.com
+  username: WestCoast ToolUser
+  password: Qatest@1234567890
+  
+Core_user:
+  email: AutomationFEUser@yopmail.com
+  firstname: Qait
+  lastname: User
+  title: Tester
+  password: Qatest@123
+  company: QAIT_Test_Org
+  postal_code: 99501
+  author_selection: Aubree Abril
+  dob: 01Aug1990
+  gender: Male
+  org_name: QAIT
+  screen_name: COreUserScreen
+  street1: 101
+  street2: baker street
+  
+NewUser:
+  email:  TestUser@yopmail.com
+  password: Qatest@123
+  fname:  Test
+  lname:  Pro User
+  title:  Tester
+  
+NewUser_License: 
+  Tax
+  Education
+  eHealth
+  
+NewUser_UnAssignedLicense:
+  Campaigns
+  Cybersecurity
+  Energy
+  
+  
+Pro_user:
+  site: POLITICO Pro
+  organization: QAIT Automation Organization
+  division: Politico Pro
+  statesDivision: States
+  user_to_be_added: Test_User_For_Pro_CMS@yopmail.com
+  title: Tester
+  license1: Agriculture
+  license2: Tax
+  license3: LC - Federal
+  license4: LC - All States
+  assignPolicy1: Agriculture
+  assignPolicy2: Education
+  seats_per_license: 10
+  firstname: Qait
+  lastname: ProUser
+  title: Tester
+  password: Qatest@123
+  calendar:
+       start_date:
+            day: 20
+            month: January
+            year: 2018
+       end_date:
+            day: 31
+            month: January
+            year: 2020
+       extended_end_date:
+            day: 31
+            month: January
+            year: 2019 
+            year1: 2020
+  dashboard_search: Blog Post   
+  searchKeyword:
+         global: "Trump defends Trump University in YouTube video"
+         anyTypeValue: Whiteboard
+  newPassword: "Qatest"              
+            
+
+apiURLForTest: "http://www.google.com/recaptcha/api/image?c=03AHJ_VusCznXyzoZu52EFNdd0Qlbw5acd7nFkCHYCGsCxynkjzYOgWpC3K3d1e5slWvu6_wtRqqcDK0Yfz2PYjlzS4U0U0CEGxjqie9-ritno5KoWuxs-6RYfH3c9OH9Neng04jCRk5JHrs0SGENYP8_X1IThYTHOBtdzCwWgz_r8ZWbPZMii4Zmuws3cgsug8R2cHPgsTItY&th=,P86wi7ulMF-VCLi2Y2udF4jfzuDwAAAASKAAAAAH2ADLMnwYeef-tzRnNaq7xmZ5IAOMx_gwSqwL-rmvi-ML7wIaW0gGQL24yeRPmeX_X6j1wSC1Dl1G6cLn47G1KaGbC7Vk8As_5lSBPU-FAW4UIxWYQ7pXxLLGhyodLvT17wyvhbide3j9iHqs6WcH8-2CZvu6MvEIYc4C-nS3MVnN6AX6Z0P-c_iJ5Ag2c8Yy7n3l-anc_DlPdzLvPcK0WBuTbDMF3qjjnwmfb6gE3omAZusLhBbQ5jrDovt7PxmnSdNLpriVEj9csT1pOxM"
+
+ExistingStoryForPro: https://subscriber-stage.politicopro.com/technology/story/2016/10/trump-transition-team-lays-tech-telecom-groundwork-132918
+  
+email:
+    recepients: 
+        recepient1: anveshanigam@qainfotech.com
+        recepient2: purviagarwal@qainfotech.com
+        recepient3: priyadarshibharat@qainfotech.com
+        recepient4: shwetasingh@qainfotech.com
+        recepient5: navneetbisht@qainfotech.com
+#       recepient6: 
+       
+       
+# ----------------------------------------------- Content Creation -------------------------------------------        
+story:
+  headline: 'Russia probes pose loyalty test for Team Trump Automation'
+  dek: 'Dont lie to protect the president.'
+  tease: 'Dont lie to protect the president.'
+  body: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  body2: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president. Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president. Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president. Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president. Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president.                               Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president.Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president. Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president. Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  contributor: 'Ted Hesson (POLITICO Reporter)'
+  contributorName: Ted Hesson
+  magazine_contributor: 'Eli Berman (Magazine Contributor)'
+  category: Legal
+  category2: Agriculture                                                         
+  category1: Education                                                         
+  tool_user: ToolUser_automation@yopmail.com
+  font: ff- tisa-web-pro
+  proContributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  statesContributor: David Siders (States Reporter)
+  modify_Headline: Senate GOP�s tax bill points to nasty fight ahead
+  media_contributor: 'Joe Pompeo (POLITICO Media Contributor)'
+  agendaContributor: 'Michael Grunwald (The Agenda Reporter)'
+  category2: Agenda
+  facebookcontributor: 'Nolan McCarty (POLITICO'
+  mag_facebookcontributor: 'Eli Berman (Magazine Contributor)'
+  category3: Magazine
+  category4: Agriculture
+  tag: Natural
+  leadmediavideo: 'What is caucus'
+  leadmediavideo_id: '4726433930001'
+  video2: 'What is caucus'
+  video2_id: '4726433930001'
+  leadmediavideo_asinmostrecentplaylist: 'Cohn, Mnuchin appear to differ on tax reform'
+  leadmediavideo_asinmostrecentplaylist_id: '5561201663001'
+  modulevideo: 'What is caucus'
+  modulevideo_id: '4726433930001'
+  bodyenhancementvideo: 'Module: Video - Melania Trump Michelle Obama Speech'
+  bodyenhancementvideo_id: '5041583234001'
+  mostrecentvideo_id1: '5577285637001'
+  mostrecentvideo_id2: '5561294146001'
+  mostrecentvideo_id3: '5561201663001'
+  mostrecentvideo_id4: '5561200781001'
+  mostrecentvideo_id5: '5561201660001'
+  leadmediaImgLink: https://static.politico.com/ac/37/584c158b41bda8944b0b97fb17ff/dsc03244.JPG
+  enhancementImgLink: http://s3-origin-images.politico.com/2013/12/20/131212_2013news_4_brookskraft.jpg
+  blurbtext1: Article originally published on
+  blurbtext2: POLITICO Magazine
+  agenda_video: Why the CDC director had to resign
+  
+  
+TagPage:
+  tagPageName: Entertainment Automation Tag Page
+  tagPageSubhead: "Entertainment is a form of activity that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience's attention."
+  category: 'Policy: Agriculture'
+  tag: Natural  
+  rssurl: /rss/AutomationRssUrl  
+  
+breaking_news:
+  headline: "Russia probes pose loyalty test for Team Trump AutomationBNS"
+  dek: 'Dont lie to protect the president.'
+  tease: 'Dont lie to protect the president.'
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  body: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."    
+  category: 'Policy: Agriculture'
+  category2: Agenda
+  proContributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  statesContributor: 'David Siders (States Reporter)'
+  agendaContributor: 'Michael Grunwald (The Agenda Reporter)'
+  magazineContributor: 'Eli Berman (Magazine Contributor)'
+  
+newsletter_entry:
+   headline: GOP ex-prosecutors slam Trump over threat to 'jail' Clinton Automation
+   newsletter: Playbook - POLITICO #Morning eHealth - POLITICO
+   mag_newsletter: Playbook - POLITICO #Morning eHealth - POLITICO
+   agenda_newsletter: Newsletter - The Agenda #Newsletter for Agenda
+   contributor: 'Ryan Heath (POLITICO Reporter)'
+   facebookcontributor: 'Nolan McCarty (POLITICO'
+   mag_facebookcontributor: 'Eli Berman (Magazine Contributor)'
+   mag_contributor: 'Emily Thorson (Magazine Reporter)'
+   agenda_contributor: 'Michael Grunwald (The Agenda Reporter)'
+   body: The State Department acknowledged Thursday night that it has not yet distributed all Hillary Clinton's emails in need of interagency review to all the appropriate agencies.
+   tease: Clinton emails
+   agendacategory1: Agenda
+   category: 'Policy: Agriculture'
+   newsletter1: ThePolitico2018 - POLITICO
+   mag_newsletter1: '2017 blast magazine - Magazine'
+
+newsletter_sponsorship:
+     name: Senate clears way for passage of spending bill Automation
+     middleAdCopy: The State Department acknowledged Thursday night
+     middleAdCopy2: it has not yet distributed all Hillary Clinton's emails
+     endAdCopy: Review to all the appropriate agencies.
+     
+  
+whiteboard:
+  headline: "Senate clears way for passage of spending bill Automation"
+  newHeadline: "Russia probes pose loyalty test for Team Trump"
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  body: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  category: 'Policy: Agriculture'
+  magazine_contributor: 'Jonah Shepp (Magazine Contributor)'#'Eli Berman (Magazine Contributor)'    
+  pro_contributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  states_contributor: 'David Siders (States Reporter)'
+  region: New Jersey
+  
+NewYorkPolicy: "Albany"
+
+event:
+  title: House Ways and Means Committee Markup Automation
+  descriptionmodule_title: House Ways and Means Committee Markup
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  details: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  tease: S. 11 (115)
+  detail: S. 11 (115)
+  witnesses: S. 11 (115)
+  participants: S. 11 (115)
+  descriptionmodule_description: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  registration_event: 'Event test 18may17 02'    
+  pro_contributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  venue: 'EngleWood Event Center'
+  venueSubtitle: Engle Subtitle
+  venueStreet: EngleWood Street
+  venueCity: Fort Lauderdale
+  venueZip: 33301
+  venueState: Florida
+  region: New Jersey
+  imageModuleText: This is image module Text
+  linkevent1: 2017-05-30 test event
+  linkevent2: 2017-05-31 Event Headline
+  linkevent3: 2017-05-30 test event
+  linkevent4: 2017-05-30 test event
+  ModuleTitle: Automation Event Description
+  EventSeries: FINAL
+
+  
+sponsored_story:
+  headline: "A Mission to New Orleans Automation"
+  dek: "A Mission to New Orleans Automation Dek"
+  category: 'Policy: Agriculture'
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  magazine_contributor: 'Eli Berman (Magazine Contributor)'
+  body: "A Mission to New Orleans"
+  
+cartoon_gallery:
+  headline: Politico Cartoons Gallery Automation
+  dek: Politico Cartoons Gallery Automation
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  category: 'Policy: Agriculture'
+  contributor: 'Ted Hesson (POLITICO Reporter)'
+  magazine_contributor: 'Eli Berman (Magazine Contributor)'
+  totalImages: 1
+  agenda_contributor: 'Michael Grunwald (The Agenda Reporter)'
+  agenda_category: Agenda
+  
+
+DataPoint_Graphic:
+  media: 'The POLITICO Wrongometer'
+  blog: Automation DataPoint Post
+  title: "A Mission to New Orleans Automation"
+  tease: "A Mission to New Orleans Automation Tease"
+  pro_contributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  edited_contributor: 'Lorraine Woellert (POLITICO Pro Reporter)'
+  magazine_contributor: 'Eli Berman (Magazine Contributor)'
+  Description: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  Author: Ted Hesson
+  PolicyVertical: DataPoint
+  Tag1: Energy
+  Tag2: Tax  
+
+photo_gallery:
+  headline: Politico Photos Gallery Automation
+  dek: Politico Photos Gallery Automation
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  magazine_contributor: 'Eli Berman (Magazine Contributor)'
+  category: 'Policy: Agriculture'
+  totalImages: 1
+  agenda_contributor: 'Michael Grunwald (The Agenda Reporter)'
+  agenda_category: Agenda
+  
+blog_post:
+  media: 'The POLITICO Wrongometer'
+  blog: The POLITICO Wrongometer
+  headline: Politico Blog Post Automation
+  tease: Blog post tease
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  pro_contributor: 'Ted Hesson (POLITICO Pro Reporter)'
+  magazine_contributor: 'Eli Berman (Magazine Contributor)'
+  Statescontributor:  'David Siders (States Reporter)'
+  body: "Lawyers representing Donald Trumps current and former aides are giving their clients one simple piece of advice: dont lie to protect the president."
+  category: 'Policy: Agriculture'
+  media_contributor: 'Joe Pompeo (POLITICO Media Contributor)'
+  agenda_blog: Blog1
+  agenda_contributor: 'Michael Grunwald (The Agenda Reporter)'
+  mag_blog: Under the Radar
+  pro_blog: 'TestBlogPost 13-Feb-2017'
+  agenda_category: Agenda
+  
+  
+    
+ModuleContainer:
+    title: The sat Cover
+    
+BodyText1: Members of Congress from both parties joined retired military leaders and veterans in heaping scorn Wednesday on President Donald Trump�s push to paradesoldiers and weaponry down the streets of the nation's capital
+  
+  
+video:
+  title: Today in Trumpworld Forbidden City Automation
+  dek: Trumpworld Automation Dek
+  tease: Trumpworld Automation Tease
+  brightCoveID: 4701167164001 #4702063396001 
+  brightCoveID1: 4702063396001
+  contributor:  'Ted Hesson (POLITICO Reporter)'
+  category: 'Policy: Agriculture'
+  agenda_category: Agenda
+  agendaContributor: 'Michael Grunwald (The Agenda Reporter)'
+  mag_contributor: 'Jonah Shepp (Magazine Contributor)'
+  mag_category: Magazine
+  proContributor:  'Jessica Bakeman (POLITICO Pro Reporter)'
+  states_reporter: 'David Kihara (States Reporter)'
+  
+livestreamvideo:
+  title: Election momentum
+  dek: Today in Trumpworld Forbidden City
+  tease: Powell full remarks at White House Automation
+  brightCoveID: 5550193569001
+  brightCoveID1: 5606975649001
+  contributor:  'Ryan Heath (POLITICO Reporter)'
+  category: 'Policy: Agriculture'
+  agenda_category: Agenda  
+  mag_category: Magazine
+  mag_contributor: 'Jonah Shepp (Magazine Contributor)'
+  proContributor:  'Jessica Bakeman (POLITICO Pro Reporter)'
+  states_reporter: 'David Kihara (States Reporter)'
+  
+  
+breakingNewsAlert:
+   title: N.J. nuclear plant on alert 
+   body: The nation  oldest nuclear power plant was on alert Monday night after waters from a colossal storm reached high levels.
+   category: 'Policy: Agriculture'
+   CdMember: 'John Carter'
+   
+ProWatchTemplate: 
+   title: India's PM Narendra Modi to visit US next month
+   category: Agriculture
+   
+RegulatoryWatch:
+    title: Obama to visit Florida this May
+   
+visual_newsletter:
+  series: The Friday Cover
+  title: Politico Visual Newsletter Automation
+  img_URL : http://assets.nydailynews.com/polopoly_fs/1.2528633.1455232986!/img/httpImage/image.jpg_gen/derivatives/article_750/trumpmag12n-5-web.jpg
+  category: 'Policy: Agriculture'
+    
+Shell_Article: 
+   headline: Bannon endorsement a sudden handicap for GOP candidates
+   reporter: 'Ryan Heath (POLITICO Reporter)'
+   agendaContributor: 'Michael Grunwald (The Agenda Reporter)'
+   mag_contributor: 'Jonah Shepp (Magazine Contributor)'
+   proContributor:  'Jessica Bakeman (POLITICO Pro Reporter)'
+   states_reporter: 'David Kihara (States Reporter)'
+   
+LeadMedia:
+ name: "2016-01-27 Ted Cruz to Trump: 'You're fired' (041045)"
+ videoid: 4724398231001  
+ image: "Image: 160724-Bernie-Sanders-Protest-MSM-image3 (1).jpg"
+ srcimage: "160724-bernie-sanders-protest-msm-image3-1.jpg"
+ name1: "2016-01-28 Iowa: The next president's first order of business (041063)"
+ videoid1: 4726433927001
+ name2: "The second presidential debate between Hillary Clinton and Donald Trump"
+ magvideo: "Module: Video Who Is Stephen Miller?"
+ image1: "Image: Approaching Hyperspeed.jpg"
+   
+  
+mag_story:
+  category: Magazine
+  
+frontend:
+  search: Jan
+  agriculture_newsletter_subscription_email: qatestautomationuserNew@yopmail.com
+  aSectionContent: Trump aides jockey for best White House real estate
+  advancedSearchTerm: Obama
+
+Core_ContentPlacement_StoryURL: https://west.ops.politico.com/story/2016/10/2016-presidential-debate-best-moments-229461
+
+
+States_Newsletter_Entry:
+  headline: "Partners suppressed audience for documentary critical of client Herbalife Automation States"
+  region: New Jersey
+  newsletter: Florida Playbook - POLITICO
+  body: "Partners suppressed audience for documentary critical of client Herbalife Automation. . . "
+  contributor: 'David Siders (States Reporter)'
+  tease: This is states newsletter entry tease..
+  
+States_Details:
+  organization: QAIT Automation Organization
+  division: States
+  
+StateAssignedLicenses:
+  New_York
+  Florida
+  New_Jersey  
+  
+States_Organization_Details:
+  search_license: Florida
+  remove_license: Florida
+  name: AutomationStatesOrg
+  div_name: Automation States Test Division
+  core_user_email: AutomationStatesTestUser
+  core_user_fname: AutomationFirstName
+  core_user_lname: LastName
+  title: Title
+  password: Qatest@123
+  license: New Jersey
+  seats_per_license: 1
+  calendar:
+       start_date:
+            day: 11
+            month: January
+            year: 2018
+       end_date:
+            day: 31
+            month: January
+            year: 2019
+       extended_end_date:
+            day: 31
+            month: January
+            year: 2019 
+            year1: 2020
+
+StatesAndProUser:
+   username: TestUser_Thu_Mar_09_12_16_19_IST_2017@yopmail.com
+   password: Qatest@123
+   
+States_Users:
+   username1: automationStatesFEUser20sep17@yopmail.com
+   Password: Qatest@123 
+      
+States_Editor:
+   username: StatesUserAutomationWestUser@yopmail.com
+   password: Qatest@123
+      
+States_Editor1:
+  username: StatesAutomationUser@Yopmail.com
+  password: Qatest@123
+   
+
+DataPointFrontEnd_User:
+   username: Datapoint_ProUser_11May17_West@yopmail.com
+   Password: Qatest@123
+   
+#--------------------------------------------------------LC---------------------------------------
+   
+LCFrontEnd_User:
+   username: shwetafewest@yopmail.com
+   Password: Qatest@123   
+
+
+LCFrontEnd_User1:  
+   username: AutomationLCUser001@yopmail.com
+   password: Qatest@123
+
+LCFrontEnd_User2:  
+   username: AutomationLCUser002@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User3:  
+   username: AutomationLCUser003@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User4:  
+   username: AutomationLCUser004@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User5:  
+   username: AutomationLCUser005@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User6:  
+   username: AutomationLCUser006@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User7:  
+   username: AutomationLCUser007@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User8:  
+   username: AutomationLCUser008@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User9:  
+   username: AutomationLCUser009@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User10:  
+   username: AutomationLCUser010@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User12:  
+   username: AutomationLCUser01@yopmail.com
+   password: Qatest@123
+   
+LCFrontEnd_User11:  
+   username: AutomationLCUser011@yopmail.com
+   password: Qatest@123  
+
+LCFrontendFederalUser:
+  username: AutomationLCUser013@yopmail.com
+  password: Qatest@123
+  
+BillPublicLaw:
+ BillNo: H.R. 3080
+ PublicLawNo: P.L. 113-121
+ Congress: 113th
+   
+      
+StatesAndProUser_AssignedProPolicy:
+  Agriculture
+  Budget & Appropriations
+  Education     
+  
+StatesAndProUser_AssignedStatesPolicy:
+  Florida
+  New_York
+  New_Jersey
+
+
+
+BoostSearch_User1:  
+   username: AutomationFEUser_BoostSearch1@yopmail.com
+   password: Qatest@123
+
+BoostSearch_User2:  
+   username: AutomationFEUser_BoostSearch2@yopmail.com
+   password: Qatest@123
+#-----------------------------------------------------------------------------
+
+# THE AGENDA 
+
+Hamburger_Menu:
+  Sections
+  Events
+  Multimedia
+  Series
+  Connect_With_Us
+ 
+  
+Magazine_Menu:
+  Magazine_Home
+  Today's_Cover
+  Opinion
+  Latest_Stories
+  Weekly_Email_Signup
+  What_Works
+  
+Agenda_Menu:
+  Agenda_Home
+  Agenda_2020
+  
+Policy_Menu:
+  Agriculture
+  Cybersecurity
+  Defense
+  Education
+  eHealth
+  Energy_&_Environment
+  Finance_&_Tax
+  Health_Care
+  Labor_&_Employment
+  Technology
+  Trade
+  Transportation_&_Infrastructure
+  
+PRO_Menu:
+  POLITICO_Pro_Home_Page
+  Why_go_Pro?
+  
+US_Edition_Menu:
+  Europe_Edition
+  POLITICO_Florida
+  POLITICO_New_Jersey
+  POLITICO_New_York
+ 
+Agenda_Footer:
+  Terms_of_Service
+  Privacy_Policy
+  Advertising
+  Headlines
+  Press
+  Careers
+
+UserControls:
+  Account_Details
+  Log_In
+  
+PoliticoProContributor:
+    Name: David Pittman 
+    twitter: David_Pittman
+    email: dpittman@politico.com 
+    
+StatesContributor:
+    Name: David Siders
+    email: dsiders@politico.com
+    
+     
+  
+# --------------------------------------------------------------------------------
+
+nayTev:
+  cms_id: 56338d10e4b047d18d2062c2
+  email: jamster@politico.com
+  password: 'PoliticoNaytev132!'
+  
+facebook:
+  email: mlin@politico.com
+  password: 'QAisc00l'
+  
+twitter:
+  email: politico.automation.qai@gmail.com
+  password: 'Qait123456'
+  
+Facebook:
+ url: https://www.facebook.com/PoliticoSandbox/publishing_tools/?section=INSTANT_ARTICLES
+ email: Pollysquid@gmail.com
+ password: Password!23
+ 
+states_story_url: https://subscriber-stage.politicopro.com/states/new-jersey/story/2017/10/20/russia-probes-pose-loyalty-test-for-team-trump-automation-fri-oct-20-12-35-53-ist-2017-2-108263
+states_story_contributor: David Siders
+mag_story_url: http://west.ops.politico.com/magazine/story/2016/10/donald-trump-2016-might-have-been-214340
+core_story_url: http://west.ops.politico.com/story/2016/10/2016-presidential-debate-best-moments-229461
+policy_page_url: http://west.ops.politico.com/agriculture
+congress_page_url: https://west.ops.politico.com/congress
+
+
+CTA_Module:
+   legistrativeUrl: https://www.politico.com/pro/policy-news-coverage/legislative-compass-bill-and-legislation-tracking
+   DTAurl: https://www.politico.com/pro/policy-news-coverage/policy-data-infographics-charts
+   LegislativeBodyText: POLITICO Pro's Legislative Compass is a powerful, easy-to-use tool that simplifies federal and state legislative tracking.
+   DtaBodyText: Each DataPoint graphic does far more than merely illustrate an idea - it informs, bringing clarity to even the most complex policy issues and government processes.
+   basic_cta_page:  http://www.politico.com/pro/blog 
+   basicCtaText: Learn more about POLITICO Pro, including additional policy coverage and tools available to you.
+   
+   
+Banner:
+   label: Politico Banner
+   Text: Google Play Store
+   URL: https://play.google.com/store?hl=en
+   Image: Google Play
+   
+ShortcutsStatesToBeAdded:
+ NY:_Health_Care
+ Documents
+ Florida
+ New_Jersey
+ FL:_Health_Care
+ Log_Out
+ Albany_Morning_Newsletter
+ 
+ShortcutsStatesToBeRemoved:
+  FL:_Health_Care
+  New_Jersey
+  Log_Out
+  Albany_Morning_Newsletter
+  
+ShortcutsToBeAdded:
+ CEO_Report
+ Documents
+ Agriculture
+ Florida
+ Energy
+ Tax
+ Log_Out
+ Pro_Report
+ 
+ShortcutsToBeRemoved:
+  Energy
+  Tax
+  Log_Out
+  Pro_Report
+  
+ 
+DownloadListFieldsToInclude:
+ Last_Name
+ First_Name
+ Title
+ Office
+ Member_State/District
+ Party
+ Issue_Areas
+ Email
+ Phone
+ Address_Line_1
+ Address_Line_2
+ City
+ State
+ Zip
+ Tags
+ 
+ 
+SectionHeaderText: White House aides already anxious about 2018
+
+MarkerPresentInBodySection:
+ Newsletter_Ad_Copy_Marker
+ Newsletter_Ad_Copy_Marker_2
+ Newsletter_Visual_Ad_Marker
+ 
+# -----------------------------------------------LC -------------------------------------------
+
+LCAlertText:
+ invalidBilltext1: The Bill Number to Merge must be from the same legislature as the draft bill
+ invalidBilltext2: Please check the values entered.
+ draftBillText:  Cannot merge to a draft bill
+ 
+BillsForMerging:
+ 111
+ abc
+ US
+ nyyyyyyyyyy12345678956565656thisisatestcase
+ S._DRAFT_2_(115)
+ S.J.RES._DRAFT_2_(115)
+ 
+LCPreferencePage:
+  heading: 'LC user preferences page: read-only, attempts to edit will not save'
+ 
+ 
+ # ----------------------------------------------- CORE REFRESH -------------------------------------------
+ 
+ 
+
+# ----------------------------------------------- LC API  -------------------------------------------
+ 
+LCApi:
+ api: http://lcapistage.politicopro.com/user_api.php?get-users
+
+  

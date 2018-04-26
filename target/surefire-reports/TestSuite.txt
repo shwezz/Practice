@@ -1,0 +1,1534 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 130, Failures: 100, Errors: 0, Skipped: 0, Time elapsed: 1,697.439 sec <<< FAILURE! - in TestSuite
+Test002_Launch_LegislativeCompass(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 35.515 sec  <<< FAILURE!
+java.lang.AssertionError: expected [POLITICO Pro Congressional Directory] but found [POLITICO Pro Congressional Directory | Sen. Roy Blunt]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.qait.automation.getpageobjects.BaseUi.verifyPageTitle(BaseUi.java:143)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifySponsorLink(BillDetailPage.java:814)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test002_Launch_LegislativeCompass(FederalBillDetailTest.java:29)
+
+Test003_Verify_Buttons_On_Bill_Detail_Page(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 1.11 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-bill-header not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:198)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyButtonOnBillPage(BillDetailPage.java:151)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test003_Verify_Buttons_On_Bill_Detail_Page(FederalBillDetailTest.java:34)
+
+Test004_Verify_Overview_Tab_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 1.042 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element tab-billText not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyGrayingOFTabs(BillDetailPage.java:839)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test004_Verify_Overview_Tab_For_Federal_Bill(FederalBillDetailTest.java:41)
+
+Test003_Search_By_Keyword_Or_Bill(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 12.503 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div#loading-results (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: a5ec631c8bf0c06a1be18b2bb62b7302
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qait.automation.utils.SeleniumWait.waitForElementToBeInVisible(SeleniumWait.java:88)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:223)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test003_Search_By_Keyword_Or_Bill(LegislationSearchTest.java:35)
+
+Test005_Verify_Bill_Text_Tab_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 2.927 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Bill Text - POLITICO Pro". Current title: "Bill Overview - POLITICO Pro" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qait.automation.getpageobjects.BaseUi.waitForWindowToChaneUntilTitle(BaseUi.java:628)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectBillToVerifyBillText(BillDetailPage.java:1043)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test005_Verify_Bill_Text_Tab_For_Federal_Bill(FederalBillDetailTest.java:54)
+
+Test005_Search_By_Chamber(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 54.886 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element option-billVersionFiled not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.verifyResultsForSelectedChamber(LegislationSearchPage.java:117)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test005_Search_By_Chamber(LegislationSearchTest.java:59)
+
+Test006_Search_By_Legislation_Type(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.056 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element input-legislationType not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.verifyLegislationFilterOptions(LegislationSearchPage.java:148)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test006_Search_By_Legislation_Type(LegislationSearchTest.java:64)
+
+Test007_Search_By_CRS_Isuue_Area(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.04 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test007_Search_By_CRS_Isuue_Area(LegislationSearchTest.java:73)
+
+Test008_Search_By_Sponsors(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.067 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test008_Search_By_Sponsors(LegislationSearchTest.java:89)
+
+Test009_Search_By_Cosponsors(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.041 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test009_Search_By_Cosponsors(LegislationSearchTest.java:100)
+
+Test010_Search_By_Committees(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.057 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test010_Search_By_Committees(LegislationSearchTest.java:111)
+
+Test011_Search_By_Current_Status(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.08 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test011_Search_By_Current_Status(LegislationSearchTest.java:122)
+
+Test012_Search_By_Actions(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.021 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test012_Search_By_Actions(LegislationSearchTest.java:133)
+
+Test013_Search_By_Date_Range(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.029 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test013_Search_By_Date_Range(LegislationSearchTest.java:145)
+
+Test014_Save_Search_Modal(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.046 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test014_Save_Search_Modal(LegislationSearchTest.java:156)
+
+Test015_Select_All_Box(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 38.693 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element radio-selectAll not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clickSelectAllCheckbox(LegislationSearchPage.java:716)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test015_Select_All_Box(LegislationSearchTest.java:170)
+
+Test016_Track_Bill_From_Legislation_Page_With_Alerts(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.055 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test016_Track_Bill_From_Legislation_Page_With_Alerts(LegislationSearchTest.java:177)
+
+Test017_Track_Bill_From_Legislation_Page_Without_Alerts(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.026 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-lcHeader not found on the YourPreferencePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.YourPreferencePage.clickButtonInLCHeader(YourPreferencePage.java:38)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test017_Track_Bill_From_Legislation_Page_Without_Alerts(LegislationSearchTest.java:205)
+
+Test018_Add_Folder_From_Legislation_Page(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.045 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-lcHeader not found on the YourPreferencePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.YourPreferencePage.clickButtonInLCHeader(YourPreferencePage.java:38)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test018_Add_Folder_From_Legislation_Page(LegislationSearchTest.java:233)
+
+Test019_Download_Excel_From_Legislation_Page(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.02 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-lcHeader not found on the YourPreferencePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.YourPreferencePage.clickButtonInLCHeader(YourPreferencePage.java:38)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test019_Download_Excel_From_Legislation_Page(LegislationSearchTest.java:252)
+
+Test020_Verify_Pagination(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 30.042 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-lcHeader not found on the YourPreferencePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.YourPreferencePage.clickButtonInLCHeader(YourPreferencePage.java:38)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test020_Verify_Pagination(LegislationSearchTest.java:263)
+
+Test021_Verify_Opening_Of_A_Bill(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 9.082 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-loadMore not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.BillDetailPage.goToFirstFreshBill(BillDetailPage.java:77)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test021_Verify_Opening_Of_A_Bill(LegislationSearchTest.java:270)
+
+Test006_Verify_Compare_Bill_Version_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 10.522 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element tab-rightRail not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.BillDetailPage.clickTabOnRightRail(BillDetailPage.java:418)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test006_Verify_Compare_Bill_Version_For_Federal_Bill(FederalBillDetailTest.java:77)
+
+Test007_Verify_Track_Functionality_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 19.05 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Bill Overview - POLITICO Pro". Current title: "Legislative Compass: Federal and State Legislative Tracking | POLITICO Pro" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qait.automation.getpageobjects.BaseUi.waitForWindowToChaneUntilTitle(BaseUi.java:628)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyBillOpened(BillDetailPage.java:110)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test007_Verify_Track_Functionality_For_Federal_Bill(FederalBillDetailTest.java:95)
+
+Test008_Stop_Tracking(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 3.047 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element txt-successEmailAlert not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:231)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.verifyEmailAlertSuccessModal(LegislationSearchPage.java:784)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test008_Stop_Tracking(FederalBillDetailTest.java:108)
+
+Test009_Verify_Track_Functionality_For_Amendment_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 20.468 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element lnk-billHeader not found on the LegOutcome !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.LegOutcomePage.goToBill(LegOutcomePage.java:670)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test009_Verify_Track_Functionality_For_Amendment_Bill(FederalBillDetailTest.java:121)
+
+Test010_Stop_Tracking_Amendment(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 3.03 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element txt-successEmailAlert not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:231)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.verifyEmailAlertSuccessModal(LegislationSearchPage.java:784)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test010_Stop_Tracking_Amendment(FederalBillDetailTest.java:134)
+
+Test011_Verify_Actions_Tab_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 14.312 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-loadMore not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.BillDetailPage.goToFirstFreshBill(BillDetailPage.java:77)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test011_Verify_Actions_Tab_For_Federal_Bill(FederalBillDetailTest.java:147)
+
+Test012_Verify_News_Tab_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 4.311 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:506)
+	at com.qait.automation.getpageobjects.BaseUi.changeWindow(BaseUi.java:583)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:545)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test012_Verify_News_Tab_For_Federal_Bill(FederalBillDetailTest.java:164)
+
+Test013_Verify_CRS_Summary_Tab(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+*** Element info: {Using=xpath, value=//h3[@class='name mt1']//a[1][not(contains(text(),'Amdt.')) and not(contains(text(),'Amendment'))]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectBillToVerifyCRSSummary(BillDetailPage.java:768)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test013_Verify_CRS_Summary_Tab(FederalBillDetailTest.java:186)
+
+Test014_Verify_News_Count(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.062 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.qait.automation.TestSessionInitiator.openUrl(TestSessionInitiator.java:398)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test014_Verify_News_Count(FederalBillDetailTest.java:203)
+
+Test015_Verify_Roll_Call_Votes_Tab_Modules_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+*** Element info: {Using=xpath, value=//h3[@class='name mt1']//a[1][not(contains(text(),'Amdt.')) and not(contains(text(),'Amendment'))]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectBillToVerifyRollCall(BillDetailPage.java:1273)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test015_Verify_Roll_Call_Votes_Tab_Modules_For_Federal_Bill(FederalBillDetailTest.java:213)
+
+Test016_Verify_Vote_Count_By_Member_Module_For_Federal_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+*** Element info: {Using=css selector, value=select#roll_call_voted_state}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:103)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyRollCallVotedStateDropdown(BillDetailPage.java:1342)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test016_Verify_Vote_Count_By_Member_Module_For_Federal_Bill(FederalBillDetailTest.java:225)
+
+Test017_Verify_Bill_Titles_On_related_Bill_Tab(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.055 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.qait.automation.TestSessionInitiator.openUrl(TestSessionInitiator.java:398)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test017_Verify_Bill_Titles_On_related_Bill_Tab(FederalBillDetailTest.java:240)
+
+Test018_Verify_Bill_Titles_For_Similar_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.018 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+*** Element info: {Using=xpath, value=//h3[@class='name mt1']//a[1][not(contains(text(),'Amdt.')) and not(contains(text(),'Amendment'))]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectBillWithSimilarBillsSection(BillDetailPage.java:1154)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test018_Verify_Bill_Titles_For_Similar_Bill(FederalBillDetailTest.java:260)
+
+Test019_Verify_Ammendments_Tab(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test019_Verify_Ammendments_Tab(FederalBillDetailTest.java:270)
+
+Test020_Verify_Cosponsors_Tab(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+*** Element info: {Using=xpath, value=//p[@class='mt1 lh4']/b[text()='Cosponsors:']//../a}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectBillWithCosponsors(BillDetailPage.java:1905)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test020_Verify_Cosponsors_Tab(FederalBillDetailTest.java:287)
+
+Test021_Verify_Document_Tab(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test021_Verify_Document_Tab(FederalBillDetailTest.java:305)
+
+Test022_Verify_Pro_Document(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyProDocuments(BillDetailPage.java:1996)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test022_Verify_Pro_Document(FederalBillDetailTest.java:317)
+
+Test023_Verify_Bill_Text_Document(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyBillTextOnDocuments(BillDetailPage.java:2018)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test023_Verify_Bill_Text_Document(FederalBillDetailTest.java:322)
+
+Test024_Verify_CBO_Cost_Estimate_Document(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyCBOCostEstimate(BillDetailPage.java:2038)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test024_Verify_CBO_Cost_Estimate_Document(FederalBillDetailTest.java:329)
+
+Test025_Verify_Committee_Reports_Document(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyCommitteeReports(BillDetailPage.java:2053)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test025_Verify_Committee_Reports_Document(FederalBillDetailTest.java:337)
+
+Test026_Verify_Create_A_Note_Functionality_For_Amendment_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 5.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:305)
+	at com.qait.LegCompass.keywords.BillDetailPage.goToFirstFreshAmdtBill(BillDetailPage.java:89)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test026_Verify_Create_A_Note_Functionality_For_Amendment_Bill(FederalBillDetailTest.java:347)
+
+Test027_Verify_Published_Note_For_Amendment_Bill(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 5.012 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+*** Element info: {Using=css selector, value=div.js-note:not(.dn)}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:469)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyNoteOnBillPage(BillDetailPage.java:394)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test027_Verify_Published_Note_For_Amendment_Bill(FederalBillDetailTest.java:363)
+
+Test028_Verify_News_Count(com.qait.politico.LegCompass.tests.FederalBillDetailTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 612c05722024e75500c6e3284904fec2
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.FederalBillDetailTest.Test028_Verify_News_Count(FederalBillDetailTest.java:381)
+
+Test023_Save_Search_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 8.386 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: a5ec631c8bf0c06a1be18b2bb62b7302
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qait.automation.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:84)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.verifyFiltersOnSavedSearch(LegislationSearchPage.java:1240)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test023_Save_Search_State(LegislationSearchTest.java:308)
+
+Test024_Switch_From_Federal_To_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.024 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-lcHeader not found on the YourPreferencePage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.YourPreferencePage.clickButtonInLCHeader(YourPreferencePage.java:38)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test024_Switch_From_Federal_To_State(LegislationSearchTest.java:315)
+
+Test025_Search_By_Chamber_For_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.037 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element input-stateFilter not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.enterState(LegislationSearchPage.java:964)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test025_Search_By_Chamber_For_State(LegislationSearchTest.java:329)
+
+Test026_Search_By_Legislation_Type_For_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.028 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test026_Search_By_Legislation_Type_For_State(LegislationSearchTest.java:339)
+
+Test027_Search_By_Sponsors_For_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.023 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test027_Search_By_Sponsors_For_State(LegislationSearchTest.java:349)
+
+Test028_Search_By_Cosponsors_For_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.018 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test028_Search_By_Cosponsors_For_State(LegislationSearchTest.java:360)
+
+Test029_Search_By_Committees_For_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 0.136 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test029_Search_By_Committees_For_State(LegislationSearchTest.java:371)
+
+Test030_Search_For_Multiple_Fields(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.024 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test030_Search_For_Multiple_Fields(LegislationSearchTest.java:382)
+
+Test031_Search_By_Date_Range_For_State(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.062 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test031_Search_By_Date_Range_For_State(LegislationSearchTest.java:395)
+
+Test032_Verify_Legislation_Type_For_States(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.048 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test032_Verify_Legislation_Type_For_States(LegislationSearchTest.java:407)
+
+Test033_Search_By_Keyword_LC2521(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.054 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element input-searchByKeyword not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.enterKeyword(LegislationSearchPage.java:1115)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test033_Search_By_Keyword_LC2521(LegislationSearchTest.java:419)
+
+Test034_Search_By_Keyword_LC_2524(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.015 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element input-searchByKeyword not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.enterKeyword(LegislationSearchPage.java:1115)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test034_Search_By_Keyword_LC_2524(LegislationSearchTest.java:433)
+
+Test035_CRS_Isuue_Area_For_Apostrophe_LC_2514(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.073 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element input-crsIssueArea not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.enterCRSIssue(LegislationSearchPage.java:230)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test035_CRS_Isuue_Area_For_Apostrophe_LC_2514(LegislationSearchTest.java:448)
+
+Test036_LC_2549(com.qait.politico.LegCompass.tests.LegislationSearchTest)  Time elapsed: 1.053 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element checkbox-checkAllBills not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.selectAllBills(LegislationSearchPage.java:1364)
+	at com.qait.politico.LegCompass.tests.LegislationSearchTest.Test036_LC_2549(LegislationSearchTest.java:456)
+
+Test003_Verify_Overview_Tab_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 13.233 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element label-stateBill not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:231)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyBillDetailsFromStateBillDetailPage(BillDetailPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyStateBillOpened(BillDetailPage.java:908)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test003_Verify_Overview_Tab_For_State_Bill(StateBillDetailTest.java:35)
+
+Test003_Track_Functionality_For_Federal_Bill(com.qait.politico.LegCompass.tests.YourPreferencePageTest)  Time elapsed: 23.231 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element radio-howOften not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectFrequencyForEmail(BillDetailPage.java:237)
+	at com.qait.politico.LegCompass.tests.YourPreferencePageTest.Test003_Track_Functionality_For_Federal_Bill(YourPreferencePageTest.java:36)
+
+Test005_Verify_Bill_Text_Tab_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 40.198 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyAnyFileIsDownloadedWithExtension(BillDetailPage.java:562)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test005_Verify_Bill_Text_Tab_For_State_Bill(StateBillDetailTest.java:81)
+
+Test006_Verify_Actions_Tab_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 17.492 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element label-stateBill not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:231)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyBillDetailsFromStateBillDetailPage(BillDetailPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyStateBillOpened(BillDetailPage.java:908)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test006_Verify_Actions_Tab_For_State_Bill(StateBillDetailTest.java:89)
+
+Test008_See_Bills(com.qait.politico.LegCompass.tests.YourPreferencePageTest)  Time elapsed: 6.409 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.qait.LegCompass.keywords.YourPreferencePage.seeAllBills(YourPreferencePage.java:240)
+	at com.qait.politico.LegCompass.tests.YourPreferencePageTest.Test008_See_Bills(YourPreferencePageTest.java:113)
+
+Test008_Verify_Compare_Bill_Version_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 8.777 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element tab-rightRail not found on the BillDetailPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.BillDetailPage.clickTabOnRightRail(BillDetailPage.java:418)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test008_Verify_Compare_Bill_Version_For_State_Bill(StateBillDetailTest.java:140)
+
+Test009_Verify_Track_Functionality_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 3.915 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:506)
+	at com.qait.automation.getpageobjects.BaseUi.changeWindow(BaseUi.java:583)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:545)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test009_Verify_Track_Functionality_For_State_Bill(StateBillDetailTest.java:150)
+
+Test010_Verify_Add_To_Folder_Functionality_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test010_Verify_Add_To_Folder_Functionality_For_State_Bill(StateBillDetailTest.java:169)
+
+Test011_Verify_Create_A_Note_Functionality(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test011_Verify_Create_A_Note_Functionality(StateBillDetailTest.java:198)
+
+Test012_Verify_Published_Note(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 5.009 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+*** Element info: {Using=css selector, value=div.js-note:not(.dn)}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:469)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyNoteOnBillPage(BillDetailPage.java:394)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test012_Verify_Published_Note(StateBillDetailTest.java:210)
+
+Test013_Verify_Compare_Bill_Version_For_States(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test013_Verify_Compare_Bill_Version_For_States(StateBillDetailTest.java:228)
+
+Test014_Verify_Roll_Call_Votes_Tab_For_State_Bill(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test014_Verify_Roll_Call_Votes_Tab_For_State_Bill(StateBillDetailTest.java:245)
+
+Test015_Verify_Bill_Titles_On_related_Bill_Tab_State(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test015_Verify_Bill_Titles_On_related_Bill_Tab_State(StateBillDetailTest.java:258)
+
+Test016_Verify_Bill_Titles_For_Similar_Bill_State(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+*** Element info: {Using=xpath, value=//h3[@class='name mt1']//a[1][not(contains(text(),'Amdt.')) and not(contains(text(),'Amendment'))]}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.BillDetailPage.selectBillWithSimilarBillsSection(BillDetailPage.java:1154)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test016_Verify_Bill_Titles_For_Similar_Bill_State(StateBillDetailTest.java:278)
+
+Test017_Verify_Ammendments_Tab_State(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test017_Verify_Ammendments_Tab_State(StateBillDetailTest.java:290)
+
+Test018_Verify_Cosponsors_Tab_State(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test018_Verify_Cosponsors_Tab_State(StateBillDetailTest.java:305)
+
+Test019_Verify_Document_Tab(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test019_Verify_Document_Tab(StateBillDetailTest.java:335)
+
+Test020_Verify_Pro_Document(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyProDocuments(BillDetailPage.java:1996)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test020_Verify_Pro_Document(StateBillDetailTest.java:351)
+
+Test021_Verify_Bill_Text_Document(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyBillTextOnDocuments(BillDetailPage.java:2018)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test021_Verify_Bill_Text_Document(StateBillDetailTest.java:356)
+
+Test022_Verify_CBO_Cost_Estimate_Document(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyCBOCostEstimate(BillDetailPage.java:2038)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test022_Verify_CBO_Cost_Estimate_Document(StateBillDetailTest.java:364)
+
+Test023_Verify_Committee_Reports_Document(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.qait.automation.getpageobjects.GetPage.isElementNotDisplayed(GetPage.java:416)
+	at com.qait.LegCompass.keywords.BillDetailPage.verifyCommitteeReports(BillDetailPage.java:2053)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test023_Verify_Committee_Reports_Document(StateBillDetailTest.java:372)
+
+Test024_VerifyLegisslativeOutcomeNotPresentForStateBills(com.qait.politico.LegCompass.tests.StateBillDetailTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 53d91a1cbbe55f6e46758efebcbcfe9b
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.StateBillDetailTest.Test024_VerifyLegisslativeOutcomeNotPresentForStateBills(StateBillDetailTest.java:381)
+
+Test004_Search_By_Keyword_Or_Bill(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 8.582 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element tab-rightRail not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.clickTabOnRightRail(RollCallSearchPage.java:523)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyKeyword(RollCallSearchPage.java:547)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test004_Search_By_Keyword_Or_Bill(RoleCallVoteSearchTest.java:40)
+
+Test005_Search_By_Congress(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 30.102 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test005_Search_By_Congress(RoleCallVoteSearchTest.java:50)
+
+Test006_Search_By_Chamber(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 8.202 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test006_Search_By_Chamber(RoleCallVoteSearchTest.java:61)
+
+Test007_Search_By_CRS_Issue_Area(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 22.803 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test007_Search_By_CRS_Issue_Area(RoleCallVoteSearchTest.java:69)
+
+Test008_Search_By_Vote_On(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 12.474 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test008_Search_By_Vote_On(RoleCallVoteSearchTest.java:84)
+
+Test009_Search_By_Legislators(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 30.013 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the LegislationSearch !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:222)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test009_Search_By_Legislators(RoleCallVoteSearchTest.java:99)
+
+Test004_Verify_Legislative_Outcome_Details_LC_2371(com.qait.politico.LegCompass.tests.Legislative_Outcome_Test)  Time elapsed: 25.462 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element innerBillInstructions not found on the LegOutcome !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:231)
+	at com.qait.LegCompass.keywords.LegOutcomePage.VerifyInstructionOutcomeAnalysis(LegOutcomePage.java:110)
+	at com.qait.politico.LegCompass.tests.Legislative_Outcome_Test.Test004_Verify_Legislative_Outcome_Details_LC_2371(Legislative_Outcome_Test.java:50)
+
+Test010_Search_For_Multiple_Fields(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 4.188 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyAllFiltersCleared(RollCallSearchPage.java:147)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test010_Search_For_Multiple_Fields(RoleCallVoteSearchTest.java:112)
+
+Test011_Search_By_Date_Range(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 30.056 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyAllFiltersCleared(RollCallSearchPage.java:147)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test011_Search_By_Date_Range(RoleCallVoteSearchTest.java:122)
+
+Test012_Sort_Bills(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 29.149 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyAllFiltersCleared(RollCallSearchPage.java:147)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test012_Sort_Bills(RoleCallVoteSearchTest.java:131)
+
+Test006_LC_2370_Verify_LegislativeOutcome_For_Bills_That_Have_Become_Public_Laws(com.qait.politico.LegCompass.tests.Legislative_Outcome_Test)  Time elapsed: 11.072 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div#loading-results (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 524f68af5825fff765cc3d7954a0cf12
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qait.automation.utils.SeleniumWait.waitForElementToBeInVisible(SeleniumWait.java:88)
+	at com.qait.LegCompass.keywords.LegislationSearchPage.clearFilters(LegislationSearchPage.java:223)
+	at com.qait.politico.LegCompass.tests.Legislative_Outcome_Test.Test006_LC_2370_Verify_LegislativeOutcome_For_Bills_That_Have_Become_Public_Laws(Legislative_Outcome_Test.java:66)
+
+Test007_Verify_Leg_Outcome_Details_For_Changes_Made_To_Existing_Laws_LC_2373(com.qait.politico.LegCompass.tests.Legislative_Outcome_Test)  Time elapsed: 4.326 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 524f68af5825fff765cc3d7954a0cf12
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:506)
+	at com.qait.automation.getpageobjects.BaseUi.changeWindow(BaseUi.java:583)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:545)
+	at com.qait.politico.LegCompass.tests.Legislative_Outcome_Test.Test007_Verify_Leg_Outcome_Details_For_Changes_Made_To_Existing_Laws_LC_2373(Legislative_Outcome_Test.java:86)
+
+Test008_Verify_Leg_Outcome_Details_For_Changes_Since_Its_Enactment_LC_2374(com.qait.politico.LegCompass.tests.Legislative_Outcome_Test)  Time elapsed: 0 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 524f68af5825fff765cc3d7954a0cf12
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.Legislative_Outcome_Test.Test008_Verify_Leg_Outcome_Details_For_Changes_Since_Its_Enactment_LC_2374(Legislative_Outcome_Test.java:113)
+
+Test009_Verify_Leg_Outcome_Details_For_Work_In_Progress_Bills_LC_2481(com.qait.politico.LegCompass.tests.Legislative_Outcome_Test)  Time elapsed: 0 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 524f68af5825fff765cc3d7954a0cf12
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.Legislative_Outcome_Test.Test009_Verify_Leg_Outcome_Details_For_Work_In_Progress_Bills_LC_2481(Legislative_Outcome_Test.java:135)
+
+Test010_VerifyLegislative_Outcome_Is_Not_Present_For_States_Bills(com.qait.politico.LegCompass.tests.Legislative_Outcome_Test)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 524f68af5825fff765cc3d7954a0cf12
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:487)
+	at com.qait.automation.getpageobjects.BaseUi.closeWindow(BaseUi.java:278)
+	at com.qait.LegCompass.keywords.BillDetailPage.closeAndSwitchToPreviousWindow(BillDetailPage.java:544)
+	at com.qait.politico.LegCompass.tests.Legislative_Outcome_Test.Test010_VerifyLegislative_Outcome_Is_Not_Present_For_States_Bills(Legislative_Outcome_Test.java:148)
+
+Test013_Verify_Pagination(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 14.322 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyAllFiltersCleared(RollCallSearchPage.java:147)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test013_Verify_Pagination(RoleCallVoteSearchTest.java:138)
+
+Test014_Clear_Filters(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 30.021 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element btn-clrFilters not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:80)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyAllFiltersCleared(RollCallSearchPage.java:147)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test014_Clear_Filters(RoleCallVoteSearchTest.java:145)
+
+Test015_Verify_Navigation_To_Roll_Call(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 60.072 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DLLA1439', ip: '10.90.0.147', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\SHWETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 08c23253877b35ea08432ae49a9558d0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qait.automation.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:84)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:127)
+	at com.qait.automation.getpageobjects.GetPage.elements(GetPage.java:135)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.SelectRollCallAffliatedToBill(RollCallSearchPage.java:636)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test015_Verify_Navigation_To_Roll_Call(RoleCallVoteSearchTest.java:152)
+
+Test016_Verify_Rejected_Amendments_Appears_In_Red(com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest)  Time elapsed: 38.631 sec  <<< FAILURE!
+java.lang.AssertionError: FAILED: Element option-voteOutcome not found on the RollCallPage !!!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.qait.automation.getpageobjects.GetPage.element(GetPage.java:105)
+	at com.qait.automation.getpageobjects.GetPage.isElementDisplayed(GetPage.java:198)
+	at com.qait.LegCompass.keywords.RollCallSearchPage.verifyVoteOutcomeFilterOptions(RollCallSearchPage.java:260)
+	at com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest.Test016_Verify_Rejected_Amendments_Appears_In_Red(RoleCallVoteSearchTest.java:165)
+

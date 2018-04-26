@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Legislative Compass Frontend Test Suite"
+	preserve-order="true" thread-count="2" parallel="tests">
+	<test name="Legislation_Search_Test">
+		<classes>
+			<class name="com.qait.politico.LegCompass.tests.LegislationSearchTest" />
+		</classes>
+	</test>
+	
+	<test name="Federal_Bill_Detail_Test">
+		<classes>
+			<class name="com.qait.politico.LegCompass.tests.FederalBillDetailTest" />
+		</classes>
+	</test>
+	
+	<test name="State_Bill_Detail_Test">
+		<classes>
+			<class name="com.qait.politico.LegCompass.tests.StateBillDetailTest" />
+		</classes>
+	</test>
+	
+	<test name="Your_Preference_Test">
+		<classes>
+			<class name="com.qait.politico.LegCompass.tests.YourPreferencePageTest" />
+		</classes>
+	</test>
+	
+	<test name="Roll_Call_Test">
+		<classes>
+			<class name="com.qait.politico.LegCompass.tests.RoleCallVoteSearchTest" />
+		</classes>
+	</test>
+	
+	<test name="Legislative_Outcome_Test">
+		<classes>
+			<class name="com.qait.politico.LegCompass.tests.Legislative_Outcome_Test" />
+		</classes>
+	</test>
+	
+</suite>

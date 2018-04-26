@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qait.politico.states.tests.PoliticoStates_CMS_Create_Core_User_Tests">
+        <methods>
+          <include name="Start_Test_Session"/>
+          <include name="stop_test_session"/>
+          <include name="Test006_Verify_Creation_Of_User_Through_Frontend"/>
+          <include name="handleTestMethodName"/>
+          <include name="takeScreenshotonFailure"/>
+        </methods>
+      </class> <!-- com.qait.politico.states.tests.PoliticoStates_CMS_Create_Core_User_Tests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
