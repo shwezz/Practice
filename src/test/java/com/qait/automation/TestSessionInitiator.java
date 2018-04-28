@@ -2,7 +2,7 @@ package com.qait.automation;
 
 import static com.qait.automation.utils.ConfigPropertyReader.getProperty;
 
-import com.qait.LegCompass.keywords.BillDetailPage;
+import com.qait.LegCompass.keywords.HomePageActions;
 
 import com.qait.automation.utils.TakeScreenshot;
 import com.qait.automation.utils.YamlReader;
@@ -49,7 +49,7 @@ public class TestSessionInitiator {
 	 */
 
 	public TakeScreenshot takescreenshot;
-	public BillDetailPage billDetail;
+	public HomePageActions home;
 
 	public WebDriver getDriver() {
 		return this.driver;
@@ -57,7 +57,7 @@ public class TestSessionInitiator {
 
 	private void _initPage() {
 
-		billDetail = new BillDetailPage(driver);
+		home = new HomePageActions(driver);
 
 	}
 
@@ -87,6 +87,7 @@ public class TestSessionInitiator {
 
 		}
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(getProperty("timeout")), TimeUnit.SECONDS);
+		
 	}
 
 	private Map<String, String> _getSessionConfig() {
@@ -100,7 +101,7 @@ public class TestSessionInitiator {
 	}
 
 	public void launchApplication() {
-		launchApplication(getYamlValue("CMS_Url"));
+		launchApplication(getYamlValue("base_url"));
 	}
 
 	// ___________________________________________________________________________

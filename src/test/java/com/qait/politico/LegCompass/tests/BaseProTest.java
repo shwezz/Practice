@@ -60,7 +60,6 @@ public abstract class BaseProTest {
 		if (systemValue != null && systemValue.trim().length() > 0) {
 			return systemValue;
 		}
-		System.out.println("#########");
 		System.out.println(YamlReader.getYamlValue(name));
 		return YamlReader.getYamlValue(name);
 	}

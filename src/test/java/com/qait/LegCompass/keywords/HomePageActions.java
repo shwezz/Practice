@@ -31,9 +31,9 @@ import org.testng.asserts.SoftAssert;
 
 import com.qait.automation.getpageobjects.GetPage;
 
-public class BillDetailPage extends GetPage {
-	public BillDetailPage(WebDriver driver) {
-		super(driver, "BillDetailPage");
+public class HomePageActions extends GetPage {
+	public HomePageActions(WebDriver driver) {
+		super(driver, "Homepage");
 	}
 
 	public void verifyBillCountAfterRefresh() {

@@ -47,6 +47,7 @@ public class WebDriverFactory {
 		platform = seleniumconfig.get("platform");
 		browser = seleniumconfig.get("browser");
 		Reporter.log("Platform - " + platform + "\n" + "Browser - " + browser);
+
 		if (platform.equalsIgnoreCase("mobile")) {
 			appType = seleniumconfig.get("appType");
 			if (appType.equals("web")) {

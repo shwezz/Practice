@@ -25,21 +25,22 @@ public class ObjectFileReader {
 	static String filepath = "src/test/resources/PageObjectRepository/";
 	static String platform, appType;
 
-	public static String[] getELementFromFile(String pageName,
-			String elementName) {
-	//	setTier();
+	public static String[] getELementFromFile(String pageName, String elementName) {
+		// setTier();
 		try {
 			platform = ConfigPropertyReader.getProperty("platform");
 			appType = ConfigPropertyReader.getProperty("appType");
 			InputStream in;
-//			
-//			if (platform.equalsIgnoreCase("mobile") && (appType.equalsIgnoreCase("native")||appType.equalsIgnoreCase("hybrid"))){
-//				in = Object.class.getResourceAsStream( "/PageObjectRepository/" + "WESTCOAST/" + pageName + ".spec" );
-//			}
-//			else {
-				in = Object.class.getResourceAsStream( "/PageObjectRepository/" + "WESTCOAST/" + pageName + ".spec" );
-//				System.out.println("Page Objects - WESTCOAST");
-//			}
+			//
+			// if (platform.equalsIgnoreCase("mobile") &&
+			// (appType.equalsIgnoreCase("native")||appType.equalsIgnoreCase("hybrid"))){
+			// in = Object.class.getResourceAsStream( "/PageObjectRepository/" +
+			// "WESTCOAST/" + pageName + ".spec" );
+			// }
+			// else {
+			in = Object.class.getResourceAsStream("/PageObjectRepository/" + "WESTCOAST/" + pageName + ".spec");
+			// System.out.println("Page Objects - WESTCOAST");
+			// }
 			Reader specFile = new InputStreamReader(in);
 			String[] result = getElement(specFile, elementName);
 			specFile.close();
@@ -49,20 +50,18 @@ public class ObjectFileReader {
 		}
 		return null;
 	}
-	
+
 	public static String getPageTitleFromFile(String pageName) {
 		setTier();
 		BufferedReader br = null;
 		String returnElement = "";
 		try {
-			br = new BufferedReader(new FileReader(filepath + tier + pageName
-					+ ".spec"));
+			br = new BufferedReader(new FileReader(filepath + tier + pageName + ".spec"));
 			String line = br.readLine();
 
 			while (line != null && !line.startsWith("========")) {
 				String titleId = line.split(":", 3)[0];
-				if (titleId.equalsIgnoreCase("pagetitle")
-						|| titleId.equalsIgnoreCase("title")
+				if (titleId.equalsIgnoreCase("pagetitle") || titleId.equalsIgnoreCase("title")
 						|| titleId.equalsIgnoreCase("page title")) {
 					returnElement = line;
 					break;
@@ -84,8 +83,7 @@ public class ObjectFileReader {
 		return returnElement.split(":", 2)[1].trim();
 	}
 
-	private static String[] getElement(Reader specFile, String elementName)
-			throws Exception {
+	private static String[] getElement(Reader specFile, String elementName) throws Exception {
 
 		ArrayList<String> elementLines = getSpecSection(specFile);
 		for (String elementLine : elementLines) {
@@ -110,8 +108,7 @@ public class ObjectFileReader {
 						flag = !flag;
 					}
 					if (flag) {
-						elementLines.add(readBuff.trim().replaceAll("[ \t]+",
-								" "));
+						elementLines.add(readBuff.trim().replaceAll("[ \t]+", " "));
 					}
 					if (!elementLines.isEmpty() && !flag) {
 						break;
@@ -124,8 +121,7 @@ public class ObjectFileReader {
 				}
 			}
 		} catch (FileNotFoundException e) {
-			System.out
-					.println("Spec File not found at location :- " + filepath);
+			System.out.println("Spec File not found at location :- " + filepath);
 		} catch (IOException e) {
 			System.out.println("exceptional case");
 		}
@@ -134,37 +130,13 @@ public class ObjectFileReader {
 
 	private static void setTier() {
 		switch (Tiers.valueOf(getProperty("tier"))) {
-		case QABlue:
-		case QABLUE:
-		case qablue:
-			tier = "QABLUE/";
-			break;
-		
-		case IAT:
-		case iat:
-		case Iat:
-			tier = "IAT/";
-			
-			
-		case qaorange:
-		case QAOrange:
-		case QaOrange:
-			tier = "QA/";	
-			break;
-			
-		case West:
-		case westcoast:
-			tier = "WESTCOAST/";	
-			break;	
-		case StageWhite:
-		case stage:
-		case stagewhite:
-			tier="STAGEWHITE/";
-			break;
-			
-		}
 
-		if( tier == null )
-			tier = "WESTCOAST/";
+		case qa:
+		case Qa:
+		case QA:
+			tier = "QA/";
+			break;
+
+		}
 	}
 }

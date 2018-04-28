@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qait.politico.states.tests.PoliticoStates_CMS_Create_Core_User_Tests">
+      <class name="com.qait.politico.LegCompass.tests.HomePageHeaderTest">
         <methods>
           <include name="Start_Test_Session"/>
-          <include name="stop_test_session"/>
-          <include name="Test006_Verify_Creation_Of_User_Through_Frontend"/>
-          <include name="handleTestMethodName"/>
-          <include name="takeScreenshotonFailure"/>
+          <include name="Test001_Login"/>
         </methods>
-      </class> <!-- com.qait.politico.states.tests.PoliticoStates_CMS_Create_Core_User_Tests -->
+      </class> <!-- com.qait.politico.LegCompass.tests.HomePageHeaderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

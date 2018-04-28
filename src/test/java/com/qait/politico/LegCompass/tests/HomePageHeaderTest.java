@@ -7,7 +7,7 @@ import java.util.Date;
 import org.testng.annotations.Test;
 import com.qait.politico.LegCompass.tests.Base_Pro_FrontEnd_Test;
 
-public class BillDetailTest extends Base_Pro_FrontEnd_Test {
+public class HomePageHeaderTest extends Base_Pro_FrontEnd_Test {
 
 	Date timestamp = new Date();
 
@@ -16,9 +16,5 @@ public class BillDetailTest extends Base_Pro_FrontEnd_Test {
 
 	}
 
-	@Test
-	public void Test002_Launch_LegislativeCompass() {
-
-	}
 
 }

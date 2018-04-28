@@ -19,69 +19,49 @@ import org.testng.Reporter;
 
 @SuppressWarnings("unchecked")
 public class YamlReader {
-	
+
 	public static String tier, browser, appType, platform;
 	public static String yamlFilePath = null;
 
 	public static String setYamlFilePath() {
-		
 		tier = getProperty("Config.properties", "tier").trim();
-        tier = System.getProperty("tier",tier);
-        browser = getProperty("Config.properties", "browser").trim();
-        appType = getProperty("Config.properties", "appType").trim();
-        platform = getProperty("Config.properties", "platform").trim();
-        System.out.println("YAML DATA "+browser + "\t"+ platform +"\t" +appType );
-        
-        if(platform.equalsIgnoreCase("mobile")/*&&appType.equalsIgnoreCase("")*/){
-        	Reporter.log("Test running on "+browser.toUpperCase()+" and on "+appType.toUpperCase()+"app");
-        	yamlFilePath = "/testdata/Mobile_TestData.yml";
-        }
-        else{
+		tier = System.getProperty("tier", tier);
+		browser = getProperty("Config.properties", "browser").trim();
+		appType = getProperty("Config.properties", "appType").trim();
+		platform = getProperty("Config.properties", "platform").trim();
+		System.out.println("YAML DATA " + browser + "\t" + platform + "\t" + appType);
+
+		if (platform
+				.equalsIgnoreCase("mobile")/* &&appType.equalsIgnoreCase("") */) {
+			Reporter.log("Test running on " + browser.toUpperCase() + " and on " + appType.toUpperCase() + "app");
+			yamlFilePath = "/testdata/Mobile_TestData.yml";
+		} else {
 			Reporter.log("Test running on " + tier + " environment");
-			if (tier.equalsIgnoreCase("local")) {
-				yamlFilePath = "/testdata/Local_TestData.yml";
-			} else if (tier.equalsIgnoreCase("stg")) {
-				yamlFilePath = "/testdata/STG_TestData.yml";
-			} else if (tier.equalsIgnoreCase("qaorange")) {
-				yamlFilePath = "/testdata/QAOrange_TestData.yml";
-			} else if (tier.equalsIgnoreCase("westcoast")) {
-				yamlFilePath = "/testdata/WestCoast_TestData.yml";
-			} else if (tier.equalsIgnoreCase("qared")) {
-				yamlFilePath = "/testdata/QaRed_TestData.yml";
-			} else if (tier.equalsIgnoreCase("qablue")) {
-				yamlFilePath = "/testdata/QABlue_TestData.yml";
-			} else if (tier.equalsIgnoreCase("prod")
-					|| tier.equalsIgnoreCase("production")) {
-				yamlFilePath = "/testdata/PROD_TestData.yml";}
-				else if (tier.equalsIgnoreCase("stage")
-						|| tier.equalsIgnoreCase("stagewhite")) {
-					yamlFilePath = "/testdata/StageWhite_TestData.yml";
-				
+			if (tier.equalsIgnoreCase("qa")) {
+				yamlFilePath = "/testdata/QA_TestData.yml";
 			} else {
-				Reporter.log(
-						"YOU HAVE PROVIDED WRONG TIER IN CONFIG!!! using dev test data",
-						true);
+				Reporter.log("YOU HAVE PROVIDED WRONG TIER IN CONFIG!!! using dev test data", true);
 			}
 		}
 		return yamlFilePath;
 	}
-	
-//	public static String setYamlFilePath( Map<String, String> _getSessionConfig ) {
-//        System.out.println("YAML DATA "+
-//        				_getSessionConfig.get("browser") + "\t"+
-//        				_getSessionConfig.get("platform") +"\t"+
-//        				_getSessionConfig.get("appType") );
-//        
-//        if (_getSessionConfig.get("tier").equalsIgnoreCase("qared")){
-//        	yamlFilePath = "/testdata/PROD_TestData.yml";
-//        }
-//        return yamlFilePath;
-//	}
-//	
-//	
-//	
-//	
-	
+
+	// public static String setYamlFilePath( Map<String, String>
+	// _getSessionConfig ) {
+	// System.out.println("YAML DATA "+
+	// _getSessionConfig.get("browser") + "\t"+
+	// _getSessionConfig.get("platform") +"\t"+
+	// _getSessionConfig.get("appType") );
+	//
+	// if (_getSessionConfig.get("tier").equalsIgnoreCase("qared")){
+	// yamlFilePath = "/testdata/PROD_TestData.yml";
+	// }
+	// return yamlFilePath;
+	// }
+	//
+	//
+	//
+	//
 
 	public static String getYamlValue(String token) {
 		try {
@@ -106,7 +86,7 @@ public class YamlReader {
 	}
 
 	private static String getValue(String token) throws FileNotFoundException {
-        Reader doc = new InputStreamReader(Object.class.getResourceAsStream(yamlFilePath));
+		Reader doc = new InputStreamReader(Object.class.getResourceAsStream(yamlFilePath));
 		Yaml yaml = new Yaml();
 		Map<String, Object> object = (Map<String, Object>) yaml.load(doc);
 		return getMapValue(object, token);
@@ -119,12 +99,10 @@ public class YamlReader {
 		return result == null ? null : result.toString();
 	}
 
-	private static Map<String, Object> parseMap(Map<String, Object> object,
-			String token) {
+	private static Map<String, Object> parseMap(Map<String, Object> object, String token) {
 		if (token.contains(".")) {
 			String[] st = token.split("\\.");
-			object = parseMap((Map<String, Object>) object.get(st[0]),
-					token.replace(st[0] + ".", ""));
+			object = parseMap((Map<String, Object>) object.get(st[0]), token.replace(st[0] + ".", ""));
 		}
 		return object;
 	}
@@ -144,23 +122,18 @@ public class YamlReader {
 	}
 
 	public static int generateRandomNumber(int MinRange, int MaxRange) {
-		int randomNumber = MinRange
-				+ (int) (Math.random() * ((MaxRange - MinRange) + 1));
+		int randomNumber = MinRange + (int) (Math.random() * ((MaxRange - MinRange) + 1));
 		return randomNumber;
 	}
-	
-	// Gives a List of Strings 
+
+	// Gives a List of Strings
 	public static ArrayList<String> getYamlList(String token) {
-		  String[] dataList = (getData(token)).split(" ");
-		  ArrayList<String> list = new ArrayList<String>();
-		  for(String element : dataList){
-		   list.add(element);
-		  }
-		  return list;
-		 }
+		String[] dataList = (getData(token)).split(" ");
+		ArrayList<String> list = new ArrayList<String>();
+		for (String element : dataList) {
+			list.add(element);
+		}
+		return list;
+	}
 
 }
-
-
-
-
